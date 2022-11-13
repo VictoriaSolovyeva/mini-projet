@@ -1,7 +1,7 @@
 <h2>page1</h2>
 <h2> les liens </h2>
 <ul>
-	<?php include "/links.html"; ?>
+	<?php include_once "/links.html"; ?>
 </ul>
 <div>
 	<p> Soumettez vos liens !!!</p>
