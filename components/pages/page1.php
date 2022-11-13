@@ -10,6 +10,7 @@
 		<input type="text" name="lien" value="http://" />
 		<label>commentaire du lien</label>
 		<input type="text" name="commentaire" />
+		<input type="hidden" name="css" value="<?php echo $css; ?>"/>
 		<input name="submit" value="soumettre" type="submit" />
 	</form>
 </div>
