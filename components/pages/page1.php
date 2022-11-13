@@ -20,18 +20,19 @@
 		<input type="hidden" name="css" value="'.$css.'"/>
 		<input type="submit" name="submit" value="soumettre"/>
 		'.($valid === 'false' ? $message : '').'
-	</form>';
+	</form>
+	
+	<script type="text/javascript">
+		function update(element) {
+			const value = element.value;
+			if (value === '.$lien.') {
+				element.style.color = "red";
+				'.$message=$invalidLinkMessage.';
+			} else {
+				element.style.color = "black";
+				'.($message="").';
+			}
+		}
+	</script>';
 	?>
 </div>
-<script type='text/javascript'>
-	function update(element) {
-		const value = element.value;
-		if (value === <?php $lien ?>) {
-			element.style.color = 'red';
-			<?php $message = $invalidLinkMessage ?>;
-		} else {
-			element.style.color = 'black';
-			<?php $message ?> = '';
-		}
-	}
-</script>
