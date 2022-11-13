@@ -14,8 +14,9 @@ if ($f = fopen($fich, "a")) {
 		//le lien est valide, on l'insère en fin de fichier
 		$code='<li><a href="'.$lien.'"><b>'.$commentaire.'</b> : '.$lien.'</a></li>'; //construction du code à insérer
 		fputs($f, $code); //écriture en fin de fichier
+		$message = '';
 	} else {
-		echo 'lien non valide : '.$lien;
+		$message = 'lien non valide : '.$lien;
 	}
 	fclose($f);
 }

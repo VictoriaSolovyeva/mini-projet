@@ -8,6 +8,9 @@
 		$titre = "Introduction";
 		$css="css0";
 	}
+	if ($message !== '') {
+		echo "<script type='text/javascript'>alert('$message');</script>";
+	}
 ?>
 
 <html lang="fr">
