@@ -3,8 +3,7 @@
 		$page=$_REQUEST["page"];
 		$css=$_REQUEST["css"];
 		$titre=$_REQUEST["titre"];
-	}
-	if (($page=='')||(substr($page, 0, 7)=='http://')) {
+	} else {
 		$page = "home";
 		$titre = "Introduction";
 		$css="css0";
