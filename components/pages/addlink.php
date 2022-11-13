@@ -21,11 +21,10 @@ if ($f = fopen($fich, "a")) {
 }
 
 echo '<form name="f" action="./../../index.php" method="post">
-<input name="css" type="hidden" value="'.$css.'">
-<input name="page" type="hidden" value="page1">
-<input name="titre" type="hidden" value="apropos">
+<input name="css" value="'.$css.'">
+<input name="page" value="page1">
+<input name="titre" value="apropos">
+<input name="submit" value="soumettre" type="submit"/>
 </form>';
 ?>
-<script language="JavaScript" type="text/JavaScript">
-	document.f.submit();
-</script>
+
