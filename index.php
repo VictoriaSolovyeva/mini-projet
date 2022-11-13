@@ -12,9 +12,9 @@
 	$lien="";
 	$commentaire="";
 	if ($_POST) {
-		$valid = echo $_POST["valid"];
-		$lien = echo $_POST["lien"];
-		$commentaire = echo $_POST["commentaire"];
+		$valid = $_POST["valid"];
+		$lien = $_POST["lien"];
+		$commentaire = $_POST["commentaire"];
 	}
 ?>
 
