@@ -3,13 +3,6 @@
 		$page=$_REQUEST["page"];
 		$css=$_REQUEST["css"];
 		$titre=$_REQUEST["titre"];
-		$lien=$_REQUEST["lien"];
-		$commentaire=$_REQUEST["commentaire"];
-
-		echo "<script type='text/javascript'>
-		console.log($lien);
-		console.log($commentaire);
-		</script>";
 	} else {
 		$page = "home";
 		$titre = "Introduction";

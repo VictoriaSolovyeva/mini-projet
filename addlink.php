@@ -14,20 +14,17 @@ if ($f = fopen($fich, "a")) {
 		$code='<li><a href="'.$lien.'"><b>'.$commentaire.'</b> : '.$lien.'</a></li>';
 		fputs($f, $code);
 	} else {
-		echo 'lien non valide : '.$lien;
+		$valid = false;
 	}
 	fclose($f);
 }
-
-echo '<form name="form" method="post" action="index.php">
-<input name="css" type="hidden" value="'.$css.'">
-<input name="page" type="hidden" value="page1">
-<input name="titre" type="hidden" value="apropos">
-<input name="lien" type="hidden" value="'.$lien.'">
-<input name="commentaire" type="hidden" value="'.$commentaire.'">
-</form>'
-
 ?>
+
+<form name="form" method="post" action="index.php">
+	<input name="css" type="hidden" value="<?php echo $css; ?>">
+	<input name="page" type="hidden" value="page1">
+	<input name="titre" type="hidden" value="apropos">
+</form>
 
 <script language="JavaScript" type="text/JavaScript">
 	document.form.submit();
