@@ -22,13 +22,13 @@ if (($page=='')||(substr($page,0,7)=='http://'))
 <body>
 	<?php
 		// inclusion des fichiers
-		include "haut.php";//haut de page
+		include "components/header.php";
 		echo "\n";
-		include "navig.php"; //menu
+		include "components/nav.php";
 		echo "\n";
-		include $page.".php"; //page à inclure en fonction de la valeur de $page
+		include "components/pages/".$page.".php";
 		echo "\n";
-		include "bas.php"; // bas de page
+		include "components/footer.php";
 	?>
 	<script language="JavaScript" type="text/JavaScript" src="js/script.js">
 	</script>
