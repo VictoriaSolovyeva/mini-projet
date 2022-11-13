@@ -16,6 +16,13 @@
 </div>
 <script language="JavaScript" type="text/JavaScript">
 	function test() {
-        console.log(document.form);
+        const form = document.querySelector('form[name="form"]');
+        const link = form.elements['lien'].value;
+        const comment = form.elements['commentaire'].value;
+        const css = form.elements['css'].value;
+        console.log(link);
+        console.log(comment);
+        console.log(css);
+
     }
 </script>
