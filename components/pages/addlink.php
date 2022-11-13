@@ -21,7 +21,7 @@ if ($f = fopen($fich, "a")) {
 }
 ?>
 
-<form name="form" method="post" action="./../../index.php">
+<form name="form" id="form" method="post" action="./../../index.php">
 	<input name="css" type="hidden" value="<?php echo $css; ?>">
 	<input name="page" type="hidden" value="page1">
 	<input name="titre" type="hidden" value="apropos">
