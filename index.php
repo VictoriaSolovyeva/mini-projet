@@ -35,7 +35,6 @@
 		echo "\n";
 		include "components/footer.php";
 	?>
-	<script type="text/JavaScript" src="js/script.js">
-	</script>
+	<script src="js/script.js"></script>
 </body>
 </html>

@@ -23,7 +23,7 @@
 	function update(element) {
 		const value = element.value;
 		const invalidMessage = document.getElementById('invalidMessage');
-		if (value === <?php $lien ?>) {
+		if (value === <?php echo $lien; ?>) {
 			element.style.color = 'red';
 			invalidMessage.style.visibility = 'visible';
 		} else {
