@@ -15,7 +15,7 @@ if ($f = fopen($fich, "a")) {
 		$code='<li><a href="'.$lien.'"><b>'.$commentaire.'</b> : '.$lien.'</a></li>';
 		fputs($f, $code);
 	} else {
-		$valid = false;
+		$valid = "false";
 	}
 	fclose($f);
 }
