@@ -11,7 +11,10 @@
 		<label>commentaire du lien</label>
 		<input type="text" name="commentaire" />
 		<input type="hidden" name="css" value="<?php echo $css; ?>"/>
-		<input type="hidden" name="valid" value="true"/>
 		<input type="submit" name="submit" value="soumettre"/>
 	</form>
 </div>
+
+<?php
+		echo $lien.' et '.$commentaire.' et '.$valid;
+	?>

@@ -2,7 +2,7 @@
 $lien=$_REQUEST["lien"];
 $commentaire=$_REQUEST["commentaire"];
 $css=$_REQUEST["css"];
-$valid=$_REQUEST["valid"];
+$valid="true";
 $fich="links.html";
 
 if (!file_exists($fich)) {
