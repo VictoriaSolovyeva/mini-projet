@@ -3,7 +3,7 @@ $lien=$_REQUEST["lien"];
 $commentaire=$_REQUEST["commentaire"];
 $css=$_REQUEST["css"];
 $fich="links.html";
-$valid=true;
+$valid="true";
 
 if (!file_exists($fich)) {
 	touch($fich);
