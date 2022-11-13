@@ -8,6 +8,20 @@
 		$titre = "Introduction";
 		$css="css0";
 	}
+	$valid="";
+	$lien="";
+	$commentaire="";
+	if ($_POST) {
+		$valid=$_POST["valid"];
+		$lien=$_POST["lien"];
+		$commentaire=$_POST["commentaire"];
+		
+		echo "<script type='text/javascript'>
+		console.log($lien);
+		console.log($commentaire);
+		console.log($valid);
+		</script>";
+	}
 ?>
 
 <html lang="fr">
