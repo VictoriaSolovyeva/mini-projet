@@ -27,7 +27,7 @@
 		const invalidMessage = document.getElementById('invalidMessage');
 		const submit = document.getElementById('submit');
 		const hasError = (value === "<?php echo $lien; ?>");
-		submit.setAttribute('disabled', hasError);
+		submit.disabled = hasError;
 		element.style.color = hasError ? 'red' : 'black';
 		invalidMessage.style.visibility = hasError ? 'visible' : 'hidden';
 	}
