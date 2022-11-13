@@ -1,12 +1,12 @@
 <h2>page1</h2>
 <h2> les liens </h2>
 <ul>
-	<?php include "links.html"; ?>
+	<?php include "services/links.html"; ?>
 </ul>
 <div>
 	<p> Soumettez vos liens !!!</p>
 	<?php echo
-	'<form name="form" method="post" action="addlink.php">
+	'<form name="form" method="post" action="services/addlink.php">
 		<label>lien</label>
 		<input type="text" name="lien"
 		'.($valid === 'false' ? 'value="'.$lien.'" style="color: red;" onkeyup="update(this)"' : 'value="http://"').' />
