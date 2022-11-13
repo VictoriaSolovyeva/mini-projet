@@ -5,12 +5,10 @@
 		$titre=$_REQUEST["titre"];
 		$lien=$_REQUEST["lien"];
 		$commentaire=$_REQUEST["commentaire"];
-		$valid=$_REQUEST["valid"];
 
 		echo "<script type='text/javascript'>
 		console.log($lien);
 		console.log($commentaire);
-		console.log($valid);
 		</script>";
 	} else {
 		$page = "home";

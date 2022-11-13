@@ -2,7 +2,6 @@
 $lien=$_REQUEST["lien"];
 $commentaire=$_REQUEST["commentaire"];
 $css=$_REQUEST["css"];
-$valid=$_REQUEST["valid"];
 $fich="links.html";
 
 if (!file_exists($fich)) {
@@ -15,7 +14,7 @@ if ($f = fopen($fich, "a")) {
 		$code='<li><a href="'.$lien.'"><b>'.$commentaire.'</b> : '.$lien.'</a></li>';
 		fputs($f, $code);
 	} else {
-		$valid = false;
+		echo 'lien non valide : '.$lien;
 	}
 	fclose($f);
 }
@@ -26,7 +25,6 @@ echo '<form name="form" method="post" action="index.php">
 <input name="titre" type="hidden" value="apropos">
 <input name="lien" type="hidden" value="'.$lien.'">
 <input name="commentaire" type="hidden" value="'.$commentaire.'">
-<input name="valid" type="hidden" value="'.$valid.'">
 </form>'
 
 ?>
