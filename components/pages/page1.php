@@ -14,7 +14,9 @@
 		<input type="text" name="commentaire"
 		'.($valid === 'false' ? 'value="'.$commentaire.'"' : '').' />
 		<input type="hidden" name="css" value="'.$css.'"/>
-		<input type="submit" name="submit" value="soumettre"/>
+		<input type="submit" name="submit" id="submit" value="soumettre"
+		'.($valid === 'false' ? 'disabled' : '').'
+		/>
 		'.($valid === 'false' ? '<span id="invalidMessage" style="color: red;"> Lien non valide</span>' : '').'
 	</form>';
 	?>
@@ -23,12 +25,10 @@
 	function update(element) {
 		const value = element.value;
 		const invalidMessage = document.getElementById('invalidMessage');
-		if (value === "<?php echo $lien; ?>") {
-			element.style.color = 'red';
-			invalidMessage.style.visibility = 'visible';
-		} else {
-			element.style.color = 'black';
-			invalidMessage.style.visibility = 'hidden';
-		}
+		const submit = document.getElementById('submit');
+		const hasError = (value === "<?php echo $lien; ?>");
+		submit.setAttribute('disabled', hasError);
+		element.style.color = hasError ? 'red' : 'black';
+		invalidMessage.style.visibility = hasError ? 'visible' : 'hidden';
 	}
 </script>
