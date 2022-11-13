@@ -12,17 +12,17 @@
 	$lien="";
 	$commentaire="";
 	if ($_POST) {
-		$valid=$_POST["valid"];
-		$lien=$_POST["lien"];
-		$commentaire=$_POST["commentaire"];
-		
-		echo "<script type='text/javascript'>
-		console.log($lien);
-		console.log($commentaire);
-		console.log($valid);
-		</script>";
+		$valid = echo $_POST["valid"];
+		$lien = echo $_POST["lien"];
+		$commentaire = echo $_POST["commentaire"];
 	}
 ?>
+
+<script type='text/javascript'>
+		console.log(<?php echo $lien; ?>);
+		console.log(<?php echo $commentaire; ?>);
+		console.log(<?php echo $valid; ?>);
+		</script>
 
 <html lang="fr">
 <head>
