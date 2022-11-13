@@ -1,16 +1,14 @@
 <?php
-if($_REQUEST){
-	$page=$_REQUEST["page"];
-	$css=$_REQUEST["css"];
-	$titre=$_REQUEST["titre"];
-}
-
-if (($page=='')||(substr($page,0,7)=='http://'))
-{
-	$page = "home";
-	$titre = "Introduction";
-	$css="css0";
-}
+	if ($_REQUEST) {
+		$page=$_REQUEST["page"];
+		$css=$_REQUEST["css"];
+		$titre=$_REQUEST["titre"];
+	}
+	if (($page=='')||(substr($page, 0, 7)=='http://')) {
+		$page = "home";
+		$titre = "Introduction";
+		$css="css0";
+	}
 ?>
 
 <html lang="fr">
