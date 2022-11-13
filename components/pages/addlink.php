@@ -19,12 +19,14 @@ if ($f = fopen($fich, "a")) {
 	}
 	fclose($f);
 }
-
-echo '<form name="f" action="./../../index.php" method="post">
-<input name="css" value="'.$css.'">
-<input name="page" value="page1">
-<input name="titre" value="apropos">
-<input name="submit" value="soumettre" type="submit"/>
-</form>';
 ?>
 
+<form name="form" method="post" action="./../../index.php">
+	<input name="css" type="hidden" value="<?php echo $css; ?>">
+	<input name="page" type="hidden" value="page1">
+	<input name="titre" type="hidden" value="apropos">
+</form>
+
+<script language="JavaScript" type="text/JavaScript">
+	document.form.submit();
+</script>
