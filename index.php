@@ -34,8 +34,6 @@
 		include "components/pages/".$page.".php";
 		echo "\n";
 		include "components/footer.php";
-		
-		echo $lien.' et '.$commentaire.' et '.$valid;
 	?>
 	<script language="JavaScript" type="text/JavaScript" src="js/script.js">
 	</script>
