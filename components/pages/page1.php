@@ -11,6 +11,12 @@
 		<label>commentaire du lien</label>
 		<input type="text" name="commentaire" />
 		<input type="hidden" name="css" value="<?php echo $css; ?>"/>
-		<input name="submit" value="soumettre" type="submit" />
+		<input name="submit" value="soumettre" onclick="test()" />
 	</form>
 </div>
+<script language="JavaScript" type="text/JavaScript">
+	function test() {
+        console.log("test");
+    }
+</script>
+
