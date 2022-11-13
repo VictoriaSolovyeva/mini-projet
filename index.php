@@ -18,12 +18,6 @@
 	}
 ?>
 
-<script type='text/javascript'>
-		console.log(<?php echo $lien; ?>);
-		console.log(<?php echo $commentaire; ?>);
-		console.log(<?php echo $valid; ?>);
-		</script>
-
 <html lang="fr">
 <head>
 	<title><?php echo "Site dynamique : ".$titre ?></title>
@@ -40,6 +34,10 @@
 		include "components/pages/".$page.".php";
 		echo "\n";
 		include "components/footer.php";
+		
+		echo $lien;
+		echo $commentaire;
+		echo $valid;
 	?>
 	<script language="JavaScript" type="text/JavaScript" src="js/script.js">
 	</script>
