@@ -8,7 +8,7 @@
 	<?php
 	echo '<form name="form" id="form1" method="post" action="addlink.php">
 			<label>lien</label>
-			<input type="text" name="lien" value="http://" value="'.($valid === 'false' ? $lien : 'http://').'" '.($valid === 'false' ? 'style="color: red;"' : '').' />
+			<input type="text" name="lien" '.($valid === 'false' ? 'value="'.$lien.'" style="color: red;"' : 'value="http://"').' />
 			<label>commentaire du lien</label>
 			<input type="text" name="commentaire" value="'.($valid === 'false' ? $commentaire : '').'" '.($valid === 'false' ? 'style="color: red;"' : '').' />
 			<input type="hidden" name="css" value="'.$css.'"/>
