@@ -6,7 +6,8 @@
 <div>
 	<p> Soumettez vos liens !!!</p>
 	<?php
-	echo '<form name="form" id="form1" method="post" action="addlink.php">
+	echo ($valid === 'false' ? '<p> lien non valide</p>' : '').'
+	<form name="form" id="form1" method="post" action="addlink.php">
 			<label>lien</label>
 			<input type="text" name="lien" '.($valid === 'false' ? 'value="'.$lien.'" style="color: red;"' : 'value="http://"').' />
 			<label>commentaire du lien</label>
