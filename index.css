@@ -17,7 +17,12 @@
 
 .body.custom-row {
     top: var(--nav-bar-size);
-    bottom: 0px;
+    bottom: var(--nav-bar-size);
+}
+
+.footer.custom-row {
+    height: var(--nav-bar-size);
+    bottom: 0;
 }
 
 .side-bar {
