@@ -1,3 +1,7 @@
+<?php
+	$invalidLinkMessage='<span style="color: red;"> Lien non valide</span>';
+	$message=$invalidLinkMessage;
+?>
 <h2>page1</h2>
 <h2> les liens </h2>
 <ul>
@@ -15,14 +19,19 @@
 		'.($valid === 'false' ? 'value="'.$commentaire.'"' : '').' />
 		<input type="hidden" name="css" value="'.$css.'"/>
 		<input type="submit" name="submit" value="soumettre"/>
-		'.($valid === 'false' ? '<span style="color: red;">Lien non valide</span>' : '').'
+		'.($valid === 'false' ? $message : '').'
 	</form>';
 	?>
 </div>
 <script type='text/javascript'>
 	function update(element) {
-		element.style.color = 'black';
 		const value = element.value;
-		console.log(value);
+		if (value === <?php $lien ?>) {
+			element.style.color = 'red';
+			<?php $message = $invalidLinkMessage ?>;
+		} else {
+			element.style.color = 'black';
+			<?php $message ?> = '';
+		}
 	}
 </script>
