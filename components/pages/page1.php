@@ -5,10 +5,10 @@
 </ul>
 <div>
 	<p> Soumettez vos liens !!!</p>
-	<?php
-	'<form name="form" id="form1" method="post" action="addlink.php">
+	<?php echo
+	'<form name="form" method="post" action="addlink.php">
 		<label>lien</label>
-		<input type="text" name="lien" id="link"
+		<input type="text" name="lien"
 		'.($valid === 'false' ? 'value="'.$lien.'" style="color: red;" onkeypress="update(this)"' : 'value="http://"').' />
 		<label>commentaire du lien</label>
 		<input type="text" name="commentaire"
