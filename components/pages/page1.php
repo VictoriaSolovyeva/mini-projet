@@ -14,12 +14,3 @@
 		<input type="submit" name="submit" value="soumettre"/>
 	</form>
 </div>
-
-<?php
-	echo "<script type='text/javascript'>
-		console.log($lien);
-		console.log($commentaire);
-		console.log($valid);
-	</script>";
-?>
-

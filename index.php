@@ -33,5 +33,11 @@
 	<script language="JavaScript" type="text/JavaScript" src="js/script.js">
 	</script>
 </body>
-
+<?php
+	echo "<script type='text/javascript'>
+		console.log($lien);
+		console.log($commentaire);
+		console.log($valid);
+	</script>";
+?>
 </html>
