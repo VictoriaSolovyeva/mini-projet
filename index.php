@@ -3,6 +3,9 @@
 		$page=$_REQUEST["page"];
 		$css=$_REQUEST["css"];
 		$titre=$_REQUEST["titre"];
+		$lien=$_REQUEST["lien"];
+		$commentaire=$_REQUEST["commentaire"];
+		$valid=$_REQUEST["valid"];
 	} else {
 		$page = "home";
 		$titre = "Introduction";

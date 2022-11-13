@@ -15,3 +15,11 @@
 	</form>
 </div>
 
+<?php
+	echo "<script type='text/javascript'>
+		console.log($lien);
+		console.log($commentaire);
+		console.log($valid);
+	</script>";
+?>
+
