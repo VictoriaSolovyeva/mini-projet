@@ -25,8 +25,9 @@ if ($f = fopen($fich, "a")) {
 	<input name="css" type="hidden" value="<?php echo $css; ?>">
 	<input name="page" type="hidden" value="page1">
 	<input name="titre" type="hidden" value="apropos">
+	<input id="submit" type="submit"/>
 </form>
 
 <script language="JavaScript" type="text/JavaScript">
-	document.form.submit();
+	document.getElementById('submit').click();
 </script>
