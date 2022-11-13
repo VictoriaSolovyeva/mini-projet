@@ -20,7 +20,6 @@ if (($page=='')||(substr($page,0,7)=='http://'))
 	<?php echo '<link href="css/'.$css.'.css"'. ' rel="stylesheet" type="text/css">'; ?>
 </head>
 <body>
-	<h1></h1>
 	<?php
 		// inclusion des fichiers
 		include "haut.php";//haut de page
@@ -31,6 +30,8 @@ if (($page=='')||(substr($page,0,7)=='http://'))
 		echo "\n";
 		include "bas.php"; // bas de page
 	?>
+	<script language="JavaScript" type="text/JavaScript" src="js/script.js">
+	</script>
 </body>
 
 </html>
