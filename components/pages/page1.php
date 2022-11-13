@@ -11,18 +11,7 @@
 		<label>commentaire du lien</label>
 		<input type="text" name="commentaire" />
 		<input type="hidden" name="css" value="<?php echo $css; ?>"/>
-		<input type="button" name="submit" value="soumettre" onclick="test()" />
+		<input type="submit" name="submit" value="soumettre"/>
 	</form>
 </div>
-<script language="JavaScript" type="text/JavaScript">
-	function test() {
-        const form = document.querySelector('form[name="form"]');
-        const link = form.elements['lien'].value;
-        const comment = form.elements['commentaire'].value;
-        const css = form.elements['css'].value;
-        console.log(link);
-        console.log(comment);
-        console.log(css);
 
-    }
-</script>
