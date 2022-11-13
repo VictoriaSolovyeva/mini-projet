@@ -4,7 +4,7 @@
 		$css=$_REQUEST["css"];
 	} else {
 		$page = "home";
-		$css="css1";
+		$css="orange";
 	}
 	$valid="";
 	$lien="";

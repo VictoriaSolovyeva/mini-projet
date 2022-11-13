@@ -1,28 +1,28 @@
 <footer>
 	<nav>
 		<p>
-			<a href="index.php?page=<?php echo $page ?>&css=css1">
-				css1
+			<a href="index.php?page=<?php echo $page ?>&css=orange">
+				orange
 			</a>
 		</p>
 		<p>
-			<a href="index.php?page=<?php echo $page ?>&css=css2">
-				css2
+			<a href="index.php?page=<?php echo $page ?>&css=red">
+				red
 			</a>
 		</p>
 		<p>
-			<a href="index.php?page=<?php echo $page ?>&css=css3">
-				css3
+			<a href="index.php?page=<?php echo $page ?>&css=blue">
+				blue
 			</a>
 		</p>
 		<p>
-			<a href="index.php?page=<?php echo $page ?>&css=css4">
-				css4
+			<a href="index.php?page=<?php echo $page ?>&css=green">
+				green
 			</a>
 		</p>
 		<p>
-			<a href="index.php?page=<?php echo $page ?>&css=css5">
-				css5
+			<a href="index.php?page=<?php echo $page ?>&css=yellow">
+				yellow
 			</a>
 		</p>
 	</nav>
