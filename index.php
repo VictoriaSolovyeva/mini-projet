@@ -24,7 +24,7 @@
 		include "components/nav.php";
 		echo "\n";
 		if ($page == 'page1') {
-			include "page1.php";
+			include "components/page1.php";
 		} else {
 			include "components/pages/".$page.".php";
 		}

@@ -11,9 +11,8 @@ if (!file_exists($fich)) {
 if ($f = fopen($fich, "a")) {
 	$test = @fopen($lien, 'r');
 	if ($test) {
-		//le lien est valide, on l'insère en fin de fichier
-		$code='<li><a href="'.$lien.'"><b>'.$commentaire.'</b> : '.$lien.'</a></li>'; //construction du code à insérer
-		fputs($f, $code); //écriture en fin de fichier
+		$code='<li><a href="'.$lien.'"><b>'.$commentaire.'</b> : '.$lien.'</a></li>';
+		fputs($f, $code);
 	} else {
 		echo 'lien non valide : '.$lien;
 	}
