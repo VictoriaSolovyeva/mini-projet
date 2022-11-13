@@ -23,11 +23,7 @@
 		echo "\n";
 		include "components/nav.php";
 		echo "\n";
-		if ($page == 'page1') {
-			include "components/page1.php";
-		} else {
-			include "components/pages/".$page.".php";
-		}
+		include "components/pages/".$page.".php";
 		echo "\n";
 		include "components/footer.php";
 	?>
