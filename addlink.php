@@ -2,8 +2,8 @@
 $lien=$_REQUEST["lien"];
 $commentaire=$_REQUEST["commentaire"];
 $css=$_REQUEST["css"];
+$valid=$_REQUEST["valid"];
 $fich="links.html";
-$valid="true";
 
 if (!file_exists($fich)) {
 	touch($fich);

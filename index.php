@@ -35,9 +35,7 @@
 		echo "\n";
 		include "components/footer.php";
 		
-		echo $lien;
-		echo $commentaire;
-		echo $valid;
+		echo $lien.' et '.$commentaire.' et '.$valid;
 	?>
 	<script language="JavaScript" type="text/JavaScript" src="js/script.js">
 	</script>
