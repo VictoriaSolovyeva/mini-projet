@@ -1,6 +1,9 @@
-h2{
-	background-color: orange;
+.header {
+	background-color: greenyellow;
 }
-.titre {
-	background-color: aqua;
+.content {
+	background-color: rgb(221, 248, 179);
+}
+.footer {
+	background-color: greenyellow;
 }

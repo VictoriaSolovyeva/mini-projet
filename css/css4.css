@@ -1,6 +1,9 @@
-h2{
-	background-color: pink;
+.header {
+	background-color: rgb(250, 250, 64)
 }
-.titre {
-	background-color: aqua;
+.content {
+	background-color: rgb(243, 243, 179)
+}
+.footer {
+	background-color: rgb(250, 250, 64)
 }

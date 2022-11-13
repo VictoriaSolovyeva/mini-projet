@@ -4,7 +4,7 @@
 		$css=$_REQUEST["css"];
 	} else {
 		$page = "home";
-		$css="css0";
+		$css="css1";
 	}
 	$valid="";
 	$lien="";
@@ -24,13 +24,15 @@
 	<?php echo '<link href="css/'.$css.'.css"'. ' rel="stylesheet" type="text/css">'; ?>
 </head>
 <body>
-	<?php
-		include "components/header.php";
-		echo "\n";
-		include "components/pages/".$page.".php";
-		echo "\n";
-		include "components/footer.php";
-	?>
+	<div class="header">
+		<?php include "components/header.php"; ?>
+	</div>
+	<div class="content">
+		<?php include "components/pages/".$page.".php"; ?>
+	</div>
+	<div class="footer">
+		<?php include "components/footer.php"; ?>
+	</div>
 	<script src="js/script.js"></script>
 </body>
 </html>
