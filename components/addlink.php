@@ -2,7 +2,7 @@
 $lien=$_REQUEST["lien"];
 $commentaire=$_REQUEST["commentaire"];
 $css=$_REQUEST["css"];
-$fich="liens.html";
+$fich="links.html";
 
 if (!file_exists($fich)) {touch($fich);} //si le fichier liens.txt n'existe pas il est créé
 

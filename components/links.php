@@ -1,6 +1,6 @@
 <h2> les liens </h2>
 <ul>
-	<?php include "liens.html"; ?>
+	<?php include "links.html"; ?>
 </ul>
 <div>
 	<p> Soumettez vos liens !!!</p>
