@@ -19,7 +19,7 @@ if ($f = fopen($fich, "a")) {
 	fclose($f);
 }
 
-echo '<form name="f" action="./../../index.php" method="post">
+echo '<form name="f" action="page1.php" method="post">
 <input name="css" type="hidden" value="'.$css.'">
 <input name="page" type="hidden" value="page1">
 <input name="titre" type="hidden" value="apropos">
