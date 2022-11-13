@@ -20,6 +20,7 @@
 <head>
 	<meta charset="utf-8"/>
 	<title>Titre du site</title>
+	<link rel="icon" href="images/fox.png">
 	<?php echo '<link href="css/'.$css.'.css"'. ' rel="stylesheet" type="text/css">'; ?>
 </head>
 <body>
