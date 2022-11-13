@@ -19,17 +19,17 @@ if ($f = fopen($fich, "a")) {
 	}
 	fclose($f);
 }
-?>
 
-<form name="form" method="post" action="index.php">
-	<input name="css" type="hidden" value="<?php echo $css; ?>">
+echo '<form name="form" method="post" action="index.php">
+	<input name="css" type="hidden" value="'.$css.'">
 	<input name="page" type="hidden" value="page1">
 	<input name="titre" type="hidden" value="apropos">
-	<input name="lien" type="hidden" value="<?php echo $lien; ?>">
-	<input name="commentaire" type="hidden" value="<?php echo $commentaire; ?>">
-	<input name="valid" type="hidden" value="<?php echo $valid; ?>">
-</form>
+	<input name="lien" type="hidden" value="'.$lien.'">
+	<input name="commentaire" type="hidden" value="'.$commentaire.'">
+	<input name="valid" type="hidden" value="'.$valid.'">
+</form>'
 
-<script language="JavaScript" type="text/JavaScript">
+echo '<script language="JavaScript" type="text/JavaScript">
 	document.form.submit();
-</script>
+</script>'
+?>
