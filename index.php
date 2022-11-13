@@ -21,8 +21,8 @@
 	<meta charset="utf-8"/>
 	<title>Titre du site</title>
 	<link rel="icon" href="images/fox.png">
-	<link href="settings.css" rel="stylesheet" type="text/css">
-	<link href="index.css" rel="stylesheet" type="text/css">
+	<!-- <link href="settings.css" rel="stylesheet" type="text/css">
+	<link href="index.css" rel="stylesheet" type="text/css"> -->
 	<?php echo '<link href="themes/'.$css.'.css"'. ' rel="stylesheet" type="text/css">'; ?>
 </head>
 <body>

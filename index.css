@@ -17,7 +17,7 @@
 
 .body.custom-row {
     top: var(--nav-bar-size);
-    bottom: var(--nav-bar-size);
+    height: calc(100% - 2 * var(--nav-bar-size));
 }
 
 .footer.custom-row {
