@@ -9,14 +9,14 @@
 		<label>lien</label>
 		<input type="text" name="lien"
 			<?php echo $valid === 'false' ?
-				'value="'.$lien.'" style="color: red;" onkeyup="update(this, \''.$lien.'\')"'
+				'value="'.$link.'" style="color: red;" onkeyup="update(this, \''.$link.'\')"'
 				: 'value="http://"';
 			?>
 		/>
 		<label>commentaire du lien</label>
 		<input type="text" name="commentaire"
 			<?php echo $valid === 'false' ?
-				'value="'.$commentaire.'"' : '';
+				'value="'.$comment.'"' : '';
 			?>
 		/>
 		<input type="hidden" name="css" value="<?php echo $css; ?>"/>

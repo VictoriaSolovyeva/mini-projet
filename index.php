@@ -6,14 +6,14 @@
 		$page = "home";
 		$css="orange";
 	}
-	$title="Titre du site";
+	$title="Mini projet";
 	$valid="";
-	$lien="";
-	$commentaire="";
+	$link="";
+	$comment="";
 	if ($_POST) {
 		$valid = $_POST["valid"];
-		$lien = $_POST["lien"];
-		$commentaire = $_POST["commentaire"];
+		$link = $_POST["lien"];
+		$comment = $_POST["commentaire"];
 	}
 ?>
 
