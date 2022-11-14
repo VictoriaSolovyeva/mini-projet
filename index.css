@@ -54,7 +54,7 @@
 .content {
     top: var(--nav-bar-size);
     width: calc(100% - calc(2 * var(--side-bar-size)));
-    left: var(--side-bar-size);
+    margin-left: var(--side-bar-size);
     height: 100%;
     overflow-y: auto;
     padding-top: var(--content-padding-top);
