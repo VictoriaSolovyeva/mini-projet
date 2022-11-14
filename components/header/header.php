@@ -2,7 +2,7 @@
     <div class="logo-box">
         <div class="logo"></div>
 		<div>
-			<h1>Exemple d'architecture d'un site dynamique</h1>
+			Exemple d'architecture d'un site dynamique
 		</div>
     </div>
     <div class="tabs-box">
