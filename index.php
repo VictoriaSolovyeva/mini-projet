@@ -27,10 +27,10 @@
 	<?php echo '<link href="themes/'.$css.'.css"'. ' rel="stylesheet" type="text/css">'; ?>
 </head>
 <body>
-	<header class="header custom-row">
+	<header class="header part">
 		<?php include "components/header/header.php"; ?>
 	</header>
-	<div class="body custom-row">
+	<div class="body part">
 		<aside aria-label="left" class="side-bar left">
 			<?php include "components/left/left.html"; ?>
 		</aside>
@@ -41,7 +41,7 @@
 			<?php include "components/pages/".$page."/".$page.".php"; ?>
 		</article>
 	</div>
-	<footer class="footer custom-row">
+	<footer class="footer part">
 		<?php include "components/footer/footer.php"; ?>
 	</footer>
 </body>

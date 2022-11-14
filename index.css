@@ -1,11 +1,11 @@
-.custom-row {
+.part {
     overflow: hidden;
     position: absolute;
     left: 0;
     right: 0;
 }
 
-.header.custom-row {
+.header.part {
     height: var(--nav-bar-size);
     top: 0;
     padding-left: var(--nav-bar-padding);
@@ -13,14 +13,14 @@
     background-color: var(--nav-bar-color);
 }
 
-.body.custom-row {
+.body.part {
     top: var(--nav-bar-size);
     height: calc(100% - calc(var(--nav-bar-size) + var(--footer-size)));
     border-top: var(--border);
     border-color: var(--border-color);
 }
 
-.footer.custom-row {
+.footer.part {
     height: var(--footer-size);
     bottom: 0;
     border-top: var(--border);
@@ -53,11 +53,11 @@
 
 .content {
     top: var(--nav-bar-size);
-    margin-left: var(--side-bar-size);
-    height: 100%;
-    padding-top: var(--content-padding-top);
-    overflow-y: auto;
     width: calc(100% - calc(2 * var(--side-bar-size)));
+    left: var(--side-bar-size);
+    height: 100%;
+    overflow-y: auto;
+    padding-top: var(--content-padding-top);
     padding-left: var(--content-padding);
     padding-right: var(--content-padding);
 }
