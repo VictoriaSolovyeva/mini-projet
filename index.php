@@ -33,10 +33,14 @@
 	</header>
 	<div class="body part">
 		<aside aria-label="left" class="side-bar left">
-			<?php include "components/left/left.html"; ?>
+			<div class="page">
+				<?php include "components/left/left.html"; ?>
+			</div>
 		</aside>
 		<aside aria-label="right" class="side-bar right">
-			<?php include "components/right/right.html"; ?>
+			<div class="page">
+				<?php include "components/right/right.html"; ?>
+			</div>
 		</aside>
 		<article class="content">
 			<div class="page">
