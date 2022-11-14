@@ -1,10 +1,11 @@
 .row {
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-.block1 {
+/* .block1 {
     width: 10%;
 }
 .block2 {
@@ -13,46 +14,12 @@
 .block3 {
     margin-top: 20px;
     width: 50%;
-}
-
-.box {
-    width: 100%;
-    height: 100%;
-}
-
-.logo-box {
-    width: var(--logo-box-size);
-    height: 100%;
-    float: left;
-}
+} */
 
 .logo {
-    margin-top: var(--logo-margin);
-    margin-right: var(--logo-margin);
     height: var(--logo-size);
     width: var(--logo-size);
+    margin-top: var(--logo-margin);
+    margin-right: var(--logo-margin);
 }
 
-.tabs-box {
-    width: var(--tabs-box-size);
-    height: 100%;
-    float: left;
-}
-
-.tab {
-    margin-left: var(--tab-margin);
-    margin-right: var(--tab-margin);
-}
-
-.cliquable {
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.active {
-    color: var(--active-tab-color);
-}
-
-.not-active:hover {
-    color: var(--tab-color-hover);
-}

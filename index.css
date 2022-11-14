@@ -8,7 +8,6 @@
 .header.part {
     height: var(--nav-bar-size);
     top: 0;
-    background-color: var(--nav-bar-color);
 }
 
 .body.part {
@@ -23,14 +22,12 @@
     bottom: 0;
     border-top: var(--border);
     border-color: var(--border-color);
-    background-color: var(--footer-color);
 }
 
 .side-bar {
     position: absolute;
     overflow: hidden;
     height: 100%;
-    background-color: var(--side-bar-color);
     width: var(--side-bar-size);
     border-color: var(--border-color);
 }
