@@ -1,10 +1,9 @@
-<header>
-	<h1>Exemple d'architecture d'un site dynamique</h1>
-</header>
-<nav>
 <div class="box">
     <div class="logo-box">
         <div class="logo"></div>
+		<div>
+			<h1>Exemple d'architecture d'un site dynamique</h1>
+		</div>
     </div>
     <div class="tabs-box">
         <div class="tab cliquable">
@@ -24,4 +23,3 @@
         </div>
     </div>
 </div>
-</nav>

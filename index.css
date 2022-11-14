@@ -35,6 +35,8 @@
     background-color: var(--side-bar-color);
     overflow-y: auto;
     width: var(--side-bar-size-max);
+    padding-top: var(--nav-bar-padding);
+    padding-left: var(--nav-bar-padding);
 }
 
 .content {

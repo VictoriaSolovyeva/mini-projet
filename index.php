@@ -37,7 +37,7 @@
 			<?php include "components/pages/".$page."/".$page.".php"; ?>
 		</div>
 	</div>
-	<div class="footer">
+	<div class="footer custom-row">
 		<?php include "components/footer/footer.php"; ?>
 	</div>
 	<script src="index.js"></script>
