@@ -31,10 +31,10 @@
 		<?php include "components/header/header.php"; ?>
 	</header>
 	<div class="body">
-		<aside aria-label="left" class="side-bar left">
+		<aside aria-label="left" class="side-bar left custom-row">
 			side bar left
 		</aside>
-		<aside aria-label="right" class="side-bar right">
+		<aside aria-label="right" class="side-bar right custom-row">
 			side bar right
 		</aside>
 		<article class="content">
