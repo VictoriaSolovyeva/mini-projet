@@ -9,6 +9,11 @@
     float: left;
 }
 
+.logo {
+    height: var(--logo-size);
+    width: var(--logo-size);
+}
+
 .tabs-box {
     padding-left: var(--tabs-box-padding-left);
     width: var(--tabs-box-size);

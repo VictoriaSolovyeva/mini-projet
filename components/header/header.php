@@ -1,4 +1,5 @@
 <div class="box">
+	<img src="images/fox.png" alt="logo" class="logo">
 	<span>Exemple d'architecture d'un site dynamique</span>&nbsp;
 	<span class="tab cliquable">
 		<?php echo '<a href="index.php?page=home&css='.$css.'">Accueil</a>'; ?>
