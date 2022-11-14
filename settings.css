@@ -8,6 +8,7 @@
     
     --logo-box-size: 120px;
     --logo-size: 50px;
+    --logo-margin: 20px;
 
     --tabs-box-size: calc(100% - (var(--logo-box-size) + var(--settings-box-size)));
     --tabs-box-padding-left: 50px;

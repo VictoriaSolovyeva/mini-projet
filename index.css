@@ -26,6 +26,8 @@
     border-top: var(--border);
     border-color: var(--border-color);
     background-color: var(--footer-color);
+    padding-top: var(--nav-bar-padding);
+    padding-left: var(--nav-bar-padding);
 }
 
 .side-bar {

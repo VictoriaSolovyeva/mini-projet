@@ -10,6 +10,8 @@
 }
 
 .logo {
+    margin-top: var(--logo-margin);
+    margin-right: var(--logo-margin);
     height: var(--logo-size);
     width: var(--logo-size);
 }
