@@ -9,7 +9,8 @@
 	'<form name="form" method="post" action="services/addlink.php">
 		<label>lien</label>
 		<input type="text" name="lien"
-		'.($valid === 'false' ? 'value="'.$lien.'" style="color: red;" onkeyup="update(this)"' : 'value="http://"').' />
+		'.($valid === 'false' ?
+		'value="'.$lien.'" style="color: red;" onkeyup="update(this, '.$lien.')"' : 'value="http://"').' />
 		<label>commentaire du lien</label>
 		<input type="text" name="commentaire"
 		'.($valid === 'false' ? 'value="'.$commentaire.'"' : '').' />
@@ -21,14 +22,4 @@
 	</form>';
 	?>
 </div>
-<script type='text/javascript'>
-	function update(element) {
-		const value = element.value;
-		const invalidMessage = document.getElementById('invalidMessage');
-		const submit = document.getElementById('submit');
-		const hasError = (value === "<?php echo $lien; ?>");
-		submit.disabled = hasError;
-		element.style.color = hasError ? 'red' : 'black';
-		invalidMessage.style.visibility = hasError ? 'visible' : 'hidden';
-	}
-</script>
+<script src="page1.js"></script>
