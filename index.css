@@ -8,7 +8,6 @@
 .header.custom-row {
     height: var(--nav-bar-size);
     top: 0;
-    border-bottom: var(--border);
     border-color: var(--border-color);
     padding-left: var(--nav-bar-padding);
     padding-right: var(--nav-bar-padding);
@@ -18,6 +17,7 @@
 .body.custom-row {
     top: var(--nav-bar-size);
     height: calc(100% - (var(--nav-bar-size) + var(--footer-size)));
+    border-top: var(--border);
 }
 
 .footer.custom-row {
@@ -45,7 +45,7 @@
     border-left: var(--border);
     border-color: var(--border-color);
     padding-top: var(--content-padding-top);
-    overflow-y: auto;
+    overflow-y: scroll;
     width: calc(100% - var(--side-bar-size-max));
     margin-left: var(--side-bar-size-max);
     padding-left: var(--content-padding-min);
