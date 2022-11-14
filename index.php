@@ -33,7 +33,9 @@
 		<aside aria-label="left" class="side-bar left">
 			side bar left
 		</aside>
-		
+		<article class="content">
+			<?php include "components/pages/".$page."/".$page.".php"; ?>
+		</article>
 		<aside aria-label="right" class="side-bar right">
 			side bar right
 		</aside>

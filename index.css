@@ -55,11 +55,11 @@ body {
 
 .content {
     top: var(--nav-bar-size);
+    left: var(--side-bar-size);
     height: 100%;
     padding-top: var(--content-padding-top);
     overflow-y: auto;
     width: calc(100% - calc(2 * var(--side-bar-size)));
-    margin-left: var(--side-bar-size);
     padding-left: var(--content-padding);
     padding-right: var(--content-padding);
 }
