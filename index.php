@@ -30,7 +30,7 @@
 	<header class="header custom-row">
 		<?php include "components/header/header.php"; ?>
 	</header>
-	<div class="body">
+	<div class="body custom-row">
 		<aside aria-label="left" class="side-bar left">
 			side bar left
 		</aside>
