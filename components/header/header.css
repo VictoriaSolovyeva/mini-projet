@@ -9,8 +9,7 @@
 .logo {
     height: var(--logo-size);
     width: var(--logo-size);
-    margin-top: var(--logo-margin);
-    margin-right: var(--logo-margin);
+    margin: var(--logo-margin);
 }
 
 .logo-box {
@@ -23,5 +22,9 @@
 
 .nav-box {
     width: var(--nav-box);
-    margin-top: var(--nav-margin-top);
+    margin-top: var(--nav-box-margin-top);
+}
+
+.nav-item {
+    margin: var(--nav-item-margin);
 }
