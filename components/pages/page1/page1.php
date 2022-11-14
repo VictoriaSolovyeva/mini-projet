@@ -5,7 +5,7 @@
 </ul>
 <div>
 	<p> Soumettez vos liens !!!</p>
-	<form name="form" method="post" action="services/addlink.php">
+	<form name="form" <?php echo 'method="post" action="services/addlink.php"'; ?> >
 		<label>lien</label>
 		<input type="text" name="lien"
 			<?php echo $valid === 'false' ?
@@ -27,6 +27,5 @@
 			'<span id="invalidMessage" style="color: red;">Lien non valide</span>' : '';
 		?>
 	</form>
-	<?php echo $css; ?>
 </div>
 <script src="components/pages/page1/page1.js"></script>
