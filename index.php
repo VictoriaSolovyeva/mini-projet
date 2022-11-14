@@ -6,6 +6,7 @@
 		$page = "home";
 		$css="orange";
 	}
+	$title="Titre du site";
 	$valid="";
 	$lien="";
 	$commentaire="";
@@ -19,7 +20,7 @@
 <html lang="fr">
 <head>
 	<meta charset="utf-8"/>
-	<title>Titre du site</title>
+	<title><?php echo $title; ?></title>
 	<link rel="icon" href="images/fox.png">
 	<link href="settings.css" rel="stylesheet" type="text/css">
 	<link href="index.css" rel="stylesheet" type="text/css">

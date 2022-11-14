@@ -3,7 +3,7 @@
 		<img src="images/fox.png" alt="logo" class="logo tab">
 	</div>
 	<div class="block2">
-		<h1>Exemple d'architecture d'un site dynamique</h1>
+		<h1><?php echo $title; ?></h1>
 	</div>
 	<div class="block3">
 		<nav>
