@@ -1,0 +1,43 @@
+.box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-box {
+    width: var(--logo-box-size);
+    height: 100%;
+}
+
+.logo {
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.tabs-box {
+    padding-left: var(--tabs-box-padding-left);
+    width: var(--tabs-box-size);
+    height: 100%;
+}
+
+.tab {
+    margin-left: var(--tab-margin);
+    margin-right: var(--tab-margin);
+}
+
+.cliquable {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.active {
+    color: var(--active-tab-color);
+}
+
+.not-active:hover {
+    color: var(--tab-color-hover);
+}
