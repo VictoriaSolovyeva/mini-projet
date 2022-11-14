@@ -15,5 +15,9 @@
 }
 
 .nav-item > a:hover {
-    color: rgb(255, 228, 177);
+    color: orangered;
+}
+
+.theme:hover {
+    color: orangered;
 }

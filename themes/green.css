@@ -15,5 +15,9 @@
 }
 
 .nav-item > a:hover {
-    color: rgb(221, 248, 179);
+    color: green;
+}
+
+.theme:hover {
+    color: green;
 }

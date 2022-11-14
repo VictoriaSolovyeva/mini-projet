@@ -11,9 +11,13 @@
 }
 
 .footer {
-	background-color: rgb(250, 250, 64)
+	background-color: rgb(250, 250, 64);
 }
 
 .nav-item > a:hover {
-    color: rgb(243, 243, 179)
+    color: yellow;
+}
+
+.theme:hover {
+    color: yellow;
 }
