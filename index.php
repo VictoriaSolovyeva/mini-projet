@@ -30,13 +30,11 @@
 		<?php include "components/header/header.php"; ?>
 	</header>
 	<div class="body custom-row">
-		<aside aria-label="left" class="side-bar-left">
+		<aside aria-label="left" class="side-bar left">
 			side bar left
 		</aside>
-		<article class="content">
-			<?php include "components/pages/".$page."/".$page.".php"; ?>
-		</article>
-		<aside aria-label="right" class="side-bar-right">
+		
+		<aside aria-label="right" class="side-bar right">
 			side bar right
 		</aside>
 	</div>
