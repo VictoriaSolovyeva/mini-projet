@@ -39,7 +39,9 @@
 			<?php include "components/right/right.html"; ?>
 		</aside>
 		<article class="content">
-			<?php include "components/pages/".$page."/".$page.".php"; ?>
+			<div class="page">
+				<?php include "components/pages/".$page."/".$page.".php"; ?>
+			</div>
 		</article>
 	</div>
 	<footer class="footer part">
