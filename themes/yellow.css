@@ -1,9 +1,19 @@
 .header {
-	background-color: rgb(250, 250, 64)
+	background-color: rgb(250, 250, 64);
 }
-.body {
-	background-color: rgb(243, 243, 179)
+
+.side-bar {
+	background-color: rgb(243, 243, 179);
 }
+
+.content {
+	background-color: rgb(243, 243, 129);
+}
+
 .footer {
 	background-color: rgb(250, 250, 64)
+}
+
+.nav-item > a:hover {
+    color: rgb(243, 243, 179)
 }
