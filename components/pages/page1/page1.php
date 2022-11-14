@@ -22,4 +22,4 @@
 	</form>';
 	?>
 </div>
-<script src="page1.js"></script>
+<script src="components/pages/page1/page1.js"></script>
