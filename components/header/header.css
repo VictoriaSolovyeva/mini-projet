@@ -25,15 +25,12 @@
     margin-top: var(--nav-box-margin-top);
 }
 
-a {
+.nav-item {
+    margin: var(--nav-item-margin);
+}
+
+.nav-item > a {
     text-decoration: none;
     font-size: x-large;
 }
 
-.nav-item {
-    margin: var(--nav-item-margin);
-}
-.nav-item > a:link    {color:blue;}
-.nav-item > a:visited {color:green;}
-.nav-item > a:hover   {color:red;}
-.nav-item > a:active  {color:yellow;}
