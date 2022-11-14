@@ -56,6 +56,7 @@ body {
 .content {
     top: var(--nav-bar-size);
     margin-left: var(--side-bar-size);
+    margin-right: var(--side-bar-size);
     height: 100%;
     padding-top: var(--content-padding-top);
     overflow-y: auto;
