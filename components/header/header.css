@@ -5,16 +5,6 @@
     flex-direction: row;
     justify-content: center;
 }
-/* .block1 {
-    width: 10%;
-}
-.block2 {
-    width: 40%;
-}
-.block3 {
-    margin-top: 20px;
-    width: 50%;
-} */
 
 .logo {
     height: var(--logo-size);
@@ -23,3 +13,15 @@
     margin-right: var(--logo-margin);
 }
 
+.logo-box {
+    width: var(--logo-box);
+}
+
+.title-box {
+    width: var(--title-box);
+}
+
+.nav-box {
+    width: var(--nav-box);
+    margin-top: var(--nav-margin-top);
+}

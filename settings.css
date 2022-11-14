@@ -6,8 +6,10 @@
 
     --logo-size: 50px;
     --logo-margin: 20px;
-    /* --title-size: 50px;
-    --nav-size: calc(100% - (var(--logo-size) + var(--title-size))); */
+    --logo-box: 10%;
+    --title-box: 30%;
+    --nav-box: calc(100% - calc(var(--logo-box) + var(--title-box)));
+    --nav-margin-top: 20px;
 
     --side-bar-size: 250px;
 
