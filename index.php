@@ -32,10 +32,10 @@
 	</header>
 	<div class="body custom-row">
 		<aside aria-label="left" class="side-bar left">
-			<?php include "components/left/left.php"; ?>
+			<?php include "components/left/left.html"; ?>
 		</aside>
 		<aside aria-label="right" class="side-bar right">
-			<?php include "components/right/right.php"; ?>
+			<?php include "components/right/right.html"; ?>
 		</aside>
 		<article class="content">
 			<?php include "components/pages/".$page."/".$page.".php"; ?>
