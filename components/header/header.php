@@ -1,7 +1,7 @@
-<div class="box">
-	<img src="images/fox.png" alt="logo" class="logo">
-	<span>Exemple d'architecture d'un site dynamique</span>&nbsp;
-	<nav>
+<div class="tabs-box">
+	<img src="images/fox.png" alt="logo" class="logo tab">
+	<span class="tab">Exemple d'architecture d'un site dynamique</span>&nbsp;
+	<nav class="tab">
 		<span class="tab cliquable">
 			<?php echo '<a href="index.php?page=home&css='.$css.'">Accueil</a>'; ?>
 		</span>&nbsp;
