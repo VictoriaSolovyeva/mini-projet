@@ -17,7 +17,6 @@
 }
 
 .tabs-box {
-    padding-left: var(--tabs-box-padding-left);
     width: var(--tabs-box-size);
     height: 100%;
     float: left;
