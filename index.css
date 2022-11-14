@@ -8,8 +8,6 @@
 .header.part {
     height: var(--nav-bar-size);
     top: 0;
-    padding-left: var(--nav-bar-padding);
-    padding-right: var(--nav-bar-padding);
     background-color: var(--nav-bar-color);
 }
 
@@ -26,8 +24,6 @@
     border-top: var(--border);
     border-color: var(--border-color);
     background-color: var(--footer-color);
-    padding-top: var(--nav-bar-padding);
-    padding-left: var(--nav-bar-padding);
 }
 
 .side-bar {
@@ -36,8 +32,6 @@
     height: 100%;
     background-color: var(--side-bar-color);
     width: var(--side-bar-size);
-    padding-top: var(--nav-bar-padding);
-    padding-left: var(--nav-bar-padding);
     border-color: var(--border-color);
 }
 
@@ -57,7 +51,4 @@
     margin-left: var(--side-bar-size);
     height: 100%;
     overflow-y: auto;
-    padding-top: var(--content-padding-top);
-    padding-left: var(--content-padding);
-    padding-right: var(--content-padding);
 }
