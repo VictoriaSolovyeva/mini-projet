@@ -30,15 +30,17 @@
 	<header class="header custom-row">
 		<?php include "components/header/header.php"; ?>
 	</header>
-	<aside aria-label="left" class="side-bar left body custom-row">
-		side bar left
-	</aside>
-	<aside aria-label="right" class="side-bar right body custom-row">
-		side bar right
-	</aside>
-	<article class="content body custom-row">
-		<?php include "components/pages/".$page."/".$page.".php"; ?>
-	</article>
+	<div class="body custom-row">
+		<aside aria-label="left" class="side-bar left">
+			side bar left
+		</aside>
+		<aside aria-label="right" class="side-bar right">
+			side bar right
+		</aside>
+		<article class="content">
+			<?php include "components/pages/".$page."/".$page.".php"; ?>
+		</article>
+	</div>
 	<footer class="footer custom-row">
 		<?php include "components/footer/footer.php"; ?>
 	</footer>
