@@ -5,7 +5,7 @@
 </ul>
 <div>
 	<p> Soumettez vos liens !!!</p>
-	<form name="form" <?php echo 'method="post" action="services/addlink.php"'; ?> >
+	<form name="form" method="post" action="services/addlink.php">
 		<label>lien</label>
 		<input type="text" name="lien"
 			<?php echo $valid === 'false' ?
@@ -19,7 +19,7 @@
 				'value="'.$commentaire.'"' : '';
 			?>
 		/>
-		<input type="hidden" name="css" value="'.$css.'"/>
+		<input type="hidden" name="css" value="<?php echo $css; ?>"/>
 		<input type="submit" name="submit" id="submit" value="soumettre"
 			<?php echo $valid === 'false' ? 'disabled' : ''; ?>
 		/>
