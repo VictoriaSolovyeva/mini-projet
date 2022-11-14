@@ -1,25 +1,27 @@
-<span>
-    <a href="index.php?page=<?php echo $page ?>&css=orange">
-        orange
-    </a>
-</span>&nbsp;
-<span>
-    <a href="index.php?page=<?php echo $page ?>&css=red">
-        red
-    </a>
-</span>&nbsp;
-<span>
-    <a href="index.php?page=<?php echo $page ?>&css=blue">
-        blue
-    </a>
-</span>&nbsp;
-<span>
-    <a href="index.php?page=<?php echo $page ?>&css=green">
-        green
-    </a>
-</span>&nbsp;
-<span>
-    <a href="index.php?page=<?php echo $page ?>&css=yellow">
-        yellow
-    </a>
-</span>&nbsp;
+<div>
+	<span class="theme">
+		<a href="index.php?page=<?php echo $page ?>&css=orange">
+			Orange
+		</a>
+	</span>
+	<span class="theme">
+		<a href="index.php?page=<?php echo $page ?>&css=red">
+			Red
+		</a>
+	</span>
+	<span class="theme">
+		<a href="index.php?page=<?php echo $page ?>&css=blue">
+			Blue
+		</a>
+	</span>
+	<span class="theme">
+		<a href="index.php?page=<?php echo $page ?>&css=green">
+			Green
+		</a>
+	</span>
+	<span class="theme">
+		<a href="index.php?page=<?php echo $page ?>&css=yellow">
+			Yellow
+		</a>
+	</span>
+</div>
