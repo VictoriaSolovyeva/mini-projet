@@ -42,7 +42,7 @@
 }
 
 .side-bar-right {
-    right: var(--side-bar-size);
+    left: calc(100% - var(--side-bar-size));
     position: absolute;
     height: 100%;
     background-color: var(--side-bar-color);

@@ -26,23 +26,23 @@
 	<?php echo '<link href="themes/'.$css.'.css"'. ' rel="stylesheet" type="text/css">'; ?>
 </head>
 <body>
-	<div class="header custom-row">
+	<header class="header custom-row">
 		<?php include "components/header/header.php"; ?>
-	</div>
+	</header>
 	<div class="body custom-row">
-		<div class="side-bar-left">
+		<aside aria-label="left" class="side-bar-left">
 			side bar left
-		</div>
-		<div class="content">
+		</aside>
+		<article class="content">
 			<?php include "components/pages/".$page."/".$page.".php"; ?>
-		</div>
-		<div class="side-bar-right">
+		</article>
+		<aside aria-label="right" class="side-bar-right">
 			side bar right
-		</div>
+		</aside>
 	</div>
-	<div class="footer custom-row">
+	<footer class="footer custom-row">
 		<?php include "components/footer/footer.php"; ?>
-	</div>
+	</footer>
 	<script src="index.js"></script>
 </body>
 </html>
