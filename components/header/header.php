@@ -1,11 +1,11 @@
 <div class="row">
-	<div class="block">
+	<div class="block1">
 		<img src="images/fox.png" alt="logo" class="logo tab">
 	</div>
-	<div class="block">
+	<div class="block2">
 		Exemple d'architecture d'un site dynamique
 	</div>
-	<div class="block">
+	<div class="block3">
 		<nav>
 			<span class="tab cliquable">
 				<?php echo '<a href="index.php?page=home&css='.$css.'">Accueil</a>'; ?>
