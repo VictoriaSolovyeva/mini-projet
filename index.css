@@ -13,7 +13,7 @@
     background-color: var(--nav-bar-color);
 }
 
-.body.custom-row {
+.body {
     top: var(--nav-bar-size);
     height: calc(100% - calc(var(--nav-bar-size) + var(--footer-size)));
     border-top: var(--border);
