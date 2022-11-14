@@ -8,7 +8,6 @@
 .header.custom-row {
     height: var(--nav-bar-size);
     top: 0;
-    border-color: var(--border-color);
     padding-left: var(--nav-bar-padding);
     padding-right: var(--nav-bar-padding);
     background-color: var(--nav-bar-color);
@@ -18,10 +17,11 @@
     top: var(--nav-bar-size);
     height: calc(100% - (var(--nav-bar-size) + var(--footer-size)));
     border-top: var(--border);
+    border-color: var(--border-color);
 }
 
 .footer.custom-row {
-    height: var(--nav-bar-size);
+    height: var(--footer-size);
     bottom: 0;
     border-top: var(--border);
     border-color: var(--border-color);
@@ -37,10 +37,12 @@
     width: var(--side-bar-size);
     padding-top: var(--nav-bar-padding);
     padding-left: var(--nav-bar-padding);
+    border-right: var(--border);
+    border-color: var(--border-color);
 }
 
 .side-bar-right {
-    right: 0;
+    right: var(--side-bar-size);
     position: absolute;
     height: 100%;
     background-color: var(--side-bar-color);
@@ -48,17 +50,17 @@
     width: var(--side-bar-size);
     padding-top: var(--nav-bar-padding);
     padding-left: var(--nav-bar-padding);
+    border-left: var(--border);
+    border-color: var(--border-color);
 }
 
 .content {
     top: var(--nav-bar-size);
     height: 100%;
-    border-left: var(--border);
-    border-color: var(--border-color);
     padding-top: var(--content-padding-top);
-    overflow-y: scroll;
+    overflow-y: auto;
     width: calc(100% - calc(2 * var(--side-bar-size)));
-    left: var(--side-bar-size);
+    margin-left: var(--side-bar-size);
     padding-left: var(--content-padding);
     padding-right: var(--content-padding);
 }
