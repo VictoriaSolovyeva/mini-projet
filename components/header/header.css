@@ -1,19 +1,19 @@
 .box {
     width: 100%;
     height: 100%;
-    display: flex;
-    flex-direction: row;
 }
 
 .logo-box {
     width: var(--logo-box-size);
     height: 100%;
+    float: left;
 }
 
 .tabs-box {
     padding-left: var(--tabs-box-padding-left);
     width: var(--tabs-box-size);
     height: 100%;
+    float: left;
 }
 
 .tab {
