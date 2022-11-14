@@ -27,5 +27,6 @@
 			'<span id="invalidMessage" style="color: red;">Lien non valide</span>' : '';
 		?>
 	</form>
+	<?php echo $css; ?>
 </div>
 <script src="components/pages/page1/page1.js"></script>
