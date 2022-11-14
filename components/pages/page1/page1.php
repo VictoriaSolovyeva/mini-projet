@@ -10,7 +10,7 @@
 		<label>lien</label>
 		<input type="text" name="lien"
 		'.($valid === 'false' ?
-		'value="'.$lien.'" style="color: red;" onkeyup="update(this, "'.$lien.'")"' : 'value="http://"').' />
+		'value="'.$lien.'" style="color: red;" onkeyup="update(this, \''.$lien.'\')"' : 'value="http://"').' />
 		<label>commentaire du lien</label>
 		<input type="text" name="commentaire"
 		'.($valid === 'false' ? 'value="'.$commentaire.'"' : '').' />
