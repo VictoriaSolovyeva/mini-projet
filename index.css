@@ -28,13 +28,24 @@
     background-color: var(--footer-color);
 }
 
-.side-bar {
+.side-bar-left {
+    left: 0;
     position: absolute;
     height: 100%;
-    transition: width var(--transition-time);
     background-color: var(--side-bar-color);
     overflow-y: auto;
-    width: var(--side-bar-size-max);
+    width: var(--side-bar-size);
+    padding-top: var(--nav-bar-padding);
+    padding-left: var(--nav-bar-padding);
+}
+
+.side-bar-right {
+    right: 0;
+    position: absolute;
+    height: 100%;
+    background-color: var(--side-bar-color);
+    overflow-y: auto;
+    width: var(--side-bar-size);
     padding-top: var(--nav-bar-padding);
     padding-left: var(--nav-bar-padding);
 }
@@ -46,8 +57,8 @@
     border-color: var(--border-color);
     padding-top: var(--content-padding-top);
     overflow-y: scroll;
-    width: calc(100% - var(--side-bar-size-max));
-    margin-left: var(--side-bar-size-max);
-    padding-left: var(--content-padding-min);
-    padding-right: var(--content-padding-min);
+    width: calc(100% - calc(2 * var(--side-bar-size)));
+    left: var(--side-bar-size);
+    padding-left: var(--content-padding);
+    padding-right: var(--content-padding);
 }

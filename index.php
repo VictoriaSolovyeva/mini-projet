@@ -30,11 +30,14 @@
 		<?php include "components/header/header.php"; ?>
 	</div>
 	<div class="body custom-row">
-		<div class="side-bar">
-			side bar
+		<div class="side-bar-left">
+			side bar left
 		</div>
 		<div class="content">
 			<?php include "components/pages/".$page."/".$page.".php"; ?>
+		</div>
+		<div class="side-bar-right">
+			side bar right
 		</div>
 	</div>
 	<div class="footer custom-row">
