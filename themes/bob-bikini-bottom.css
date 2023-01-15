@@ -1,5 +1,7 @@
 article {
     height: 100%;
+}
+.content {
     background-color: rgb(0, 0, 0);
     opacity: 0.5;
 }
