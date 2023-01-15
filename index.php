@@ -4,9 +4,9 @@
 		$css=$_REQUEST["css"];
 	} else {
 		$page = "home";
-		$css="orange";
+		$css="bob";
 	}
-	$title="Mini projet";
+	$title="L'univers de Bob l'éponge";
 	$valid="";
 	$link="";
 	$comment="";
@@ -21,36 +21,26 @@
 <head>
 	<meta charset="utf-8"/>
 	<title><?php echo $title; ?></title>
-	<link rel="icon" href="images/fox.png">
-	<link href="settings.css" rel="stylesheet" type="text/css">
-	<link href="index.css" rel="stylesheet" type="text/css">
-	<link href="components/header/header.css" rel="stylesheet" type="text/css">
-	<link href="components/footer/footer.css" rel="stylesheet" type="text/css">
+	<link rel="icon" href="images/bob.png">
 	<?php echo '<link href="themes/'.$css.'.css"'. ' rel="stylesheet" type="text/css">'; ?>
 </head>
 <body>
-	<header class="header part">
-		<?php include "components/header/header.php"; ?>
+	<header>
+		<?php include "components/header.php"; ?>
 	</header>
-	<div class="body part">
-		<aside aria-label="left" class="side-bar left">
-			<div class="page">
-				<?php include "components/left/left.html"; ?>
-			</div>
+	<main>
+		<aside>
+			<?php include "components/left.php"; ?>
 		</aside>
-		<aside aria-label="right" class="side-bar right">
-			<div class="page">
-				<?php include "components/right/right.html"; ?>
-			</div>
+		<aside>
+			<?php include "components/right.php"; ?>
 		</aside>
-		<article class="content">
-			<div class="page">
-				<?php include "components/pages/".$page."/".$page.".php"; ?>
-			</div>
+		<article>
+			<?php include "components/pages/".$page.".php"; ?>
 		</article>
-	</div>
-	<footer class="footer part">
-		<?php include "components/footer/footer.php"; ?>
+	</main>
+	<footer>
+		<?php include "components/footer.php"; ?>
 	</footer>
 </body>
 </html>

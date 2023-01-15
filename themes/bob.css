@@ -1,0 +1,254 @@
+* {
+	box-sizing: border-box;
+}
+/* width */
+::-webkit-scrollbar {
+	width: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: #36ecf2;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: #f7f749;;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: rgb(232, 49, 198);
+  }
+  
+html,
+body {
+	margin: 0;
+	padding: 0;	
+	overflow-x: hidden;
+}
+
+header {
+    position: fixed;
+	top: 0;
+    left: 0;
+    right: 0;
+	background-color: #1551A2;
+}
+header nav {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+	width: 50%;
+	height: 70px;
+	margin: auto;
+}
+
+header nav a 
+{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+	
+}
+header nav a:hover {
+	color: #e9ff46;
+	font-weight: bold;
+	content: url(../images/burger.png);
+	
+}
+
+a:hover + .burger{
+    /* display:block; */
+}
+
+.burger {
+    display: none;
+	
+}
+
+header .logo {
+	width: 50px;
+	content: url("../images/pineapple.png");
+	float: left;
+	padding-left: 10px;
+	cursor: pointer;
+
+}
+header .logo > img {
+	height: 100%;
+	
+
+}
+
+aside {
+	display: none;
+	position: relative;
+}
+main {
+   
+	margin-top: 70px;
+    bottom: 25px;
+    left: 0;
+    right: 0;
+	overflow: auto;
+	/* background-color: skyblue; */
+	background-image: url(../images/backgrounds/bg-bob.png);
+	
+	
+}
+article {
+	
+	color: white;
+	min-width: 500px;
+	width: 100%;
+	height: 100%;
+	/* background-image: url(../images/backgrounds/bg-bob.png); */
+	
+	
+	
+}
+h1 {
+	padding-left: 15px;
+	text-align: center;
+	
+}
+p {
+	padding: 10px;
+}
+
+footer {
+	background-color: #1551A2;
+	height: 30px;
+	bottom: 0;
+	/* overflow: hidden; */
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+footer div {
+	display:flex;
+	justify-content:space-between;
+	width: 50%;
+	margin: auto;
+	/* margin-left: 25%;
+	 */
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
+}
+
+@media screen and (max-width:900px){
+	
+	
+	header   {
+		
+	display: flex;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 2rem 3rem;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;
+    width: 100%;
+    /* transition: 0.6s; */
+	height: fit-content;
+	
+		
+	}
+	
+	header .logo {
+		position:static;
+	}
+	nav  {
+		display: flex;
+		flex-direction: column;		
+	}
+	
+	main {
+		margin-top: 120px;
+		
+		
+	}
+	footer {
+		position: fixed;
+		margin-bottom: 0px;
+
+	}
+}
+/* bob falling */
+.burgers {
+	display: none;
+	
+}
+.i {
+	
+	display: inline-flex;
+	width: 10%;
+	animation: anim 2s linear;
+	transform:  translateY(-120%) rotate(0deg);
+	
+	
+}
+
+.n1{
+ 
+	 position: absolute;
+	 /* animation: anim 5s linear infinite; */
+	 top:0;
+}
+.n2{
+	animation-delay: 1.2s;
+	position: absolute;
+
+	top:0;
+	right: 7%;
+	/* animation: anim 6s linear infinite; */
+}
+.n3{
+	animation-delay: 2s;
+	position: absolute;
+  
+	top: 0;
+	right: 25%;
+	/* animation: anim 4s linear infinite 1s; */
+}
+.n4{
+	animation-delay: 2.4s;
+	position: absolute;
+	top:0;
+	right: 45%;
+	/* animation: anim 4s linear infinite 1.5s; */
+}
+.n5{
+	animation-delay: 2.9s;
+	position: absolute;
+	top:0;
+	right:65%;
+	/* animation: anim 4s linear infinite 2s; */
+}
+.n6{
+	animation-delay: 1s;
+	position: absolute;
+  	top:0;
+  	right:78%;
+  	/* animation: anim 4s linear infinite 1.5s;	 */
+}
+
+
+@keyframes anim{
+	0%{
+		transform:  translateY(-120%) rotate(0deg);
+	}
+	100%{
+		transform: translateY(120vh) rotate(-360deg);
+	}
+}
