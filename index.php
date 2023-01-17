@@ -29,12 +29,6 @@
 		<?php include "components/header.php"; ?>
 	</header>
 	<main>
-		<aside>
-			<?php include "components/left.php"; ?>
-		</aside>
-		<aside>
-			<?php include "components/right.php"; ?>
-		</aside>
 		<article>
 			<?php include "components/pages/".$page.".php"; ?>
 		</article>

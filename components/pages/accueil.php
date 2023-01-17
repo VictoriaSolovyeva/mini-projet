@@ -24,13 +24,13 @@
     <div class="bubble"></div>
 </div>
 <div id="carlos" class="character">
-    <div class="sad"></div>
+    <div class="normal"></div>
 </div>
 <div id="patrick" class="character">
-    <div class="sad"></div>
+    <div class="normal"></div>
 </div>
 <div id="bob" class="character">
-    <div class="sad"></div>
+    <div class="normal"></div>
 </div>
 
 <script src="scripts/move.js"></script>

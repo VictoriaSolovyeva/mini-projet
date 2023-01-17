@@ -47,11 +47,6 @@ header .logo {
 	cursor: pointer;
 }
 
-aside {
-	display: none;
-	position: relative;
-}
-
 main {
 	margin-top: 70px;
 	bottom: 25px;
@@ -306,18 +301,18 @@ footer a {
 	bottom: 20px;
 }
 
-#bob>.sad {
-	content: url(../images/sad/bob-sad.png);
+#bob>.normal {
+	content: url(../images/normal/bob-normal.png);
 	height: 140px;
 }
 
-#patrick>.sad {
-	content: url(../images/sad/patrick-sad.png);
+#patrick>.normal {
+	content: url(../images/normal/patrick-normal.png);
 	height: 180px;
 }
 
-#carlos>.sad {
-	content: url(../images/sad/carlos-sad.png);
+#carlos>.normal {
+	content: url(../images/normal/carlos-normal.png);
 	height: 200px;
 	width: 90px;
 	padding-bottom: 15px;
