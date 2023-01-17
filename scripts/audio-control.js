@@ -1,6 +1,6 @@
-const bob = getElement('#bob > img');
-const patrick = getElement('#patrick > img');
-const carlos = getElement('#carlos > img');
+const bob = getElement('#bob > div');
+const patrick = getElement('#patrick > div');
+const carlos = getElement('#carlos > div');
 const audioButton = getElement("#audio");
 const audio = getElement('audio');
 audio.volume = 0;
