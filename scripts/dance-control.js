@@ -8,10 +8,10 @@ let dance = 0;
  */
 function toggleDance() {
     dance = dance === 1 ? 0 : 1;
-    [bob, patrick, carlos].forEach((img) => {
+    [bob, patrick, carlos].forEach((div) => {
     dance === 1
-      ? img.classList.replace("sad", "dance")
-      : img.classList.replace("dance", "sad");
+      ? div.classList.replace("sad", "dance")
+      : div.classList.replace("dance", "sad");
   });
 }
 
