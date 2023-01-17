@@ -3,7 +3,7 @@
 		$page=$_REQUEST["page"];
 		$css=$_REQUEST["css"];
 	} else {
-		$page = "home";
+		$page = "accueil";
 		$css="bob";
 	}
 	$title="L'univers de Bob l'éponge";
