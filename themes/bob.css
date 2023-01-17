@@ -92,14 +92,15 @@ article {
 }
 
 .content {
+	margin-left: 25%;
+	width: 50%;
     background-color: rgb(0, 0, 0);
     opacity: 0.5;
+	border-radius: 25px;
 }
 
 h1 {
-	padding-left: 15px;
 	text-align: center;
-	
 }
 p {
 	padding: 10px;
@@ -358,9 +359,23 @@ footer a {
     }
 }
 
-/* Characters */
+/* Dance */
 
+#dance {
+	margin: 10px;
+	padding: 5px;
+	height: 40px;
+	width: 75px;
+	background-color: darkcyan;
+	border-radius: 10px;
+	border: solid 1px;
+	cursor: pointer;
+	font-size: x-large;
+}
 
+#dance:before {
+	content: "Dance";
+}
 
 /* Characters position */
 
