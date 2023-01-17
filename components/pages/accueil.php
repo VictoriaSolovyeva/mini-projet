@@ -1,5 +1,3 @@
-<div id="dance" onclick="toggleDance()"></div>
-
 <div class="content">
     <h1>
         Bienvenue sur le site de Vika et Cynthia!
@@ -10,6 +8,8 @@
         choisir la version imprimable du site ou encore afficher le site sans style du tout.
     </p>
 </div>
+
+<div id="dance" onclick="toggleDance()"></div>
 
 <div class="bubbles">
     <div class="bubble"></div>
