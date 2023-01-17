@@ -41,7 +41,7 @@ header nav a:hover {
 
 header .logo {
     width: 50px;
-    content: url("../images/pineapple.png");
+    content: url("../images/patrick-logo.png");
     float: left;
     padding-left: 10px;
     cursor: pointer;
@@ -57,7 +57,7 @@ main {
     bottom: 25px;
     left: 0;
     right: 0;
-    background: url(../images/backgrounds/bikinibottom.png) center fixed;
+    background: url(../images/backgrounds/patrick-background.png) center fixed;
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -163,7 +163,7 @@ footer a {
 }
 
 #patrick>.sad {
-    content: url(../images/sad/patrick-sad.png);
+    content: url(../images/patrick-zen.png);
     height: 180px;
 }
 
