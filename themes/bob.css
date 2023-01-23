@@ -67,7 +67,7 @@ article {
 
 .transparent {
 	padding-left: 20px;
-	background-color: rgb(0, 0, 0);
+	background-color: #1551A2;
 	opacity: 0.5;
 	padding-bottom: 10px;
 	margin-bottom: 15px;
@@ -387,3 +387,105 @@ footer a:hover {
 		bottom: 20px;
 	}
 }
+
+/* cube rotation */
+
+.transformation-container {
+	opacity: 1;
+	width: 25%;
+	margin-left: calc((100vw - 25%) /2);
+}
+
+#cube-container {
+	width: 100px;
+	height: 100px;
+	perspective: 1000px;
+  }
+  #cube {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	transform-style: preserve-3d;
+	transform: rotateY(45deg) rotateX(35deg);
+  }
+  .face {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+  }
+  .left {
+	background: url(../images/cube/left.png) center fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transform: rotateY(0deg) translateZ(50px);
+  }
+  .right {
+	background: url(../images/cube/right.png) center fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transform: rotateY(180deg) translateZ(50px);
+  }
+  .back {
+	background: url(../images/cube/back.png) center fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transform: rotateY(-90deg) translateZ(50px);
+  }
+  .front {
+	background: url(../images/cube/front.png) center fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transform: rotateY(90deg) translateZ(50px);
+  }
+  .top {
+	background: url(../images/cube/top.png) center fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transform: rotateX(90deg) translateZ(50px);
+  }
+  .bottom {
+	background: url(../images/cube/bottom.png) center fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transform: rotateX(-90deg) translateZ(50px);
+  }
+  
+  /* slide style */
+  
+  #slidecontainer {
+	width: 300px;
+	height: 100px;
+	position: relative;
+  }
+  
+  .slider {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 100%;
+	height: 25px;
+	background: #d3d3d3;
+	outline: none;
+	opacity: 0.7;
+	-webkit-transition: .2s;
+	transition: opacity .2s;
+  }
+
+  .slider:hover {
+	opacity: 1;
+  }
+
+  .slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 25px;
+	height: 25px;
+	background: #04AA6D;
+	cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+	width: 25px;
+	height: 25px;
+	background: #04AA6D;
+	cursor: pointer;
+  }

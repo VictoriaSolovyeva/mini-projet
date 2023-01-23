@@ -82,7 +82,7 @@ footer {
     position: fixed;
     width: 200px;
     left: calc((100vw - 200px) / 2);
-    bottom: 100px;
+    bottom: 0px;
     font-size: large;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 }

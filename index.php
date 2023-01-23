@@ -59,6 +59,7 @@ if ($_POST) {
 			</div>
 			<script src="scripts/move.js"></script>
 			<script src="scripts/dance-control.js"></script>
+			<script src="scripts/cube.js"></script>
 		</article>
 	</main>
 	<footer>
