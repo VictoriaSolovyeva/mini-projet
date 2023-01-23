@@ -59,12 +59,12 @@ article {
 }
 
 .transparent {
-    width: 50%;
+    width: 80%;
     border: solid 1px;
     border-radius: 10px;
     padding-left: 20px;
 	padding-bottom: 10px;
-    margin-left: 25%;
+    margin-left: 10%;
 	margin-bottom: 15px;
 }
 
