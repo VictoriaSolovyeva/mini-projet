@@ -5,6 +5,17 @@ body {
 	overflow: hidden;
 }
 
+#site-logo {
+    position: fixed;
+    width: 120px;
+	height: 70px;
+    left: calc(100vw - 200px);
+    top: 5px;
+    background-image: url(/images/Logo.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
 header {
 	position: fixed;
 	top: 0;

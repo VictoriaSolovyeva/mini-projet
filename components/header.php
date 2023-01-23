@@ -1,5 +1,5 @@
 
-<div class="logo" onclick="window.location.href='index.php?page=accueil&css=bob'"></div>
+<div class="logo" onclick="window.location.href='index.php?page=accueil&css=<?php echo $css; ?>'"></div>
 <nav>
 	<a href="index.php?page=accueil&css=<?php echo $css; ?>">Accueil</a>
 	<a href="index.php?page=animations&css=<?php echo $css; ?>">Animations</a>

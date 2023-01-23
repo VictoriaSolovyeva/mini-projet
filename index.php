@@ -32,10 +32,10 @@ if ($_POST) {
 	</header>
 	<main>
 		<article>
+			<div id="site-logo"></div>
 			<div class="transparent">
 				<?php include "components/pages/" . $page . ".php"; ?>
 			</div>
-			<div id="dance" onclick="toggleDance()"></div>
 			<div class="bubbles">
 				<div class="bubble"></div>
 				<div class="bubble"></div>

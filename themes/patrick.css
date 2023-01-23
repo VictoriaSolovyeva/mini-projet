@@ -7,6 +7,19 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+	scrollbar-color: rgb(241, 148, 131) rgb(193, 245, 44);
+}
+
+#site-logo {
+    position: fixed;
+    width: 120px;
+	height: 70px;
+    left: calc(100vw - 200px);
+    top: 5px;
+    background-image: url(/images/Logo.png);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 header {
@@ -16,8 +29,7 @@ header {
     bottom: 0;
     width: 250px;
     margin-top: 20px;
-    font-size: x-large;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: larger;
 }
 
 header nav a {
@@ -30,7 +42,7 @@ header nav a {
 }
 
 header nav a:hover {
-    color: cadetblue;
+    color: rgb(216, 255, 73);
     font-weight: bold;
 }
 
@@ -64,12 +76,27 @@ article {
 
 .transparent {
     background-color: rgb(126, 85, 32, 0.5);
-    width: 50%;
+    width: 60%;
     border-radius: 10px;
     padding-left: 20px;
+    padding-right: 20px;
 	padding-bottom: 10px;
-    margin-left: 25%;
+    margin-left: 20%;
 	margin-bottom: 15px;
+    height: 400px;
+}
+
+.scroll {
+    height: 300px;
+    overflow-y: auto;
+}
+
+.transparent a {
+	color: rgb(180, 223, 28);
+	text-decoration: none;
+}
+.transparent a:hover {
+	color: rgb(126, 160, 5);
 }
 
 h1 {
@@ -80,7 +107,7 @@ h1 {
 footer {
     position: fixed;
     width: 200px;
-    left: calc((100vw - 200px) / 2);
+    left: calc(100vw - 200px);
     bottom: 0px;
     font-size: large;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
@@ -96,16 +123,15 @@ footer div a {
 }
 
 footer div a:hover {
-    color: cadetblue;
+    color: rgb(216, 255, 73);
     font-weight: bold;
 }
 
 /* Vole */
 
 #dance {
-    position: absolute;
-    bottom: 50px;
-    right: 50px;
+    margin-left: 40%;
+    margin-top: 20%;
 	padding-top: 5px;
 	padding-left: 15px;
 	height: 40px;
@@ -115,6 +141,12 @@ footer div a:hover {
 	border: solid 1px;
 	cursor: pointer;
 	font-size: x-large;
+}
+
+#dance:hover {
+	background-color: rgb(241, 148, 131);
+    color: blueviolet;
+    border-color: chartreuse;
 }
 
 #dance:before {
@@ -173,6 +205,7 @@ footer div a:hover {
 	height: 80px;
 	perspective: 1000px;
 	margin-left: calc((100% - 80px) / 2);
+	margin-top: 100px;
 }
 
 #cube {
