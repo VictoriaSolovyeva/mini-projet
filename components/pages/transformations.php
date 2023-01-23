@@ -5,7 +5,7 @@
     <div class="row">
         <div class="column">
             <p>
-            Texte sur les transformations. Texte sur les transformations. Texte sur les transformations. Texte sur les transformations. Texte sur les transformations. Texte sur les transformations. Texte sur les transformations. 
+                Texte sur les transformations. Texte sur les transformations. Texte sur les transformations. Texte sur les transformations. Texte sur les transformations. Texte sur les transformations. Texte sur les transformations.
             </p>
         </div>
         <div class="column">
@@ -20,7 +20,7 @@
                 </div>
             </div>
             <div id="slidecontainer">
-                <input type="range" id="cursor" min="0" max="100" value="50" oninput="showVal(this.value)" class="slider">
+                <input type="range" id="cursor" min="0" max="100" value="50" oninput="showVal(this.value)">
             </div>
         </div>
     </div>
