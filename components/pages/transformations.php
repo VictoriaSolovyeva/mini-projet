@@ -20,7 +20,7 @@
                 </div>
             </div>
             <div id="slidecontainer">
-                <input type="range" id="cursor" min="0" max="100" value="50" oninput="showVal(this.value)">
+                <input type="range" id="cursor" min="0" max="100" value="50" oninput="rotate(this.value)">
             </div>
         </div>
     </div>
