@@ -2,7 +2,6 @@ const cube = document.getElementById("cube");
 const scale = document.getElementById("slidecontainer");
 const minX = 0;
 const maxX = slidecontainer.offsetWidth;
-console.log(slidecontainer.offsetWidth);
 
 let cubeRotation = 0;
 
