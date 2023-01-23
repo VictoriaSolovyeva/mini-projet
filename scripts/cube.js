@@ -10,7 +10,6 @@ showVal(50);
 
 function showVal(e) {
     let x = 2 * ((+e + 25) * maxX) / 100;
-    cursor.style.left = x + "px";
     cubeRotation = (x / maxX) * 180;
     cube.style.transform = `rotateY(${cubeRotation}deg) rotateX(35deg)`;
 
