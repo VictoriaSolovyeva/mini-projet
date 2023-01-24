@@ -304,3 +304,22 @@ footer div a:hover {
 	background: rgb(241, 148, 131);
 	cursor: pointer;
 }
+
+/* contact */
+
+.contact {
+    height: 300px;
+    width: 250px;
+    background-color: blueviolet;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact.cynthia {
+    background: url(../images/contact/cynthia.png);
+}
+
+.contact.vika {
+    background: url(../images/contact/vika.png);
+}
