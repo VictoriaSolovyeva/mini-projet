@@ -307,19 +307,26 @@ footer div a:hover {
 
 /* contact */
 
-.contact {
-    height: 300px;
-    width: 250px;
-    background-color: blueviolet;
+.contact-container {
+    width: 100%;
+    height: 100%;
+}
 
+.contact {
+    height: 200px;
+    width: 165px;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+.contact-center {
+    margin-left: calc((100% - 165px) / 2);
+}
+
 .contact.cynthia {
-    background: url(../images/contact/cynthia.png);
+    background-image: url(../images/contact/cynthia.png);
 }
 
 .contact.vika {
-    background: url(../images/contact/vika.png);
+    background-image: url(../images/contact/vika.png);
 }

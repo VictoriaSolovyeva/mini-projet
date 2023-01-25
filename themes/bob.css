@@ -570,3 +570,40 @@ footer a:hover {
 	background: yellow;
 	cursor: pointer;
 }
+
+/* contact */
+
+.contact-container {
+    width: 100%;
+    height: 100%;
+}
+
+.contact {
+    height: 200px;
+    width: 165px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.contact-text span {
+    background-color: #1551A2;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 25px;
+	border: solid 1px;
+	font-size: large;
+}
+
+.contact-center {
+    margin-left: calc((100% - 165px) / 2);
+}
+
+.contact.cynthia {
+    background-image: url(../images/contact/cynthia.png);
+}
+
+.contact.vika {
+    background-image: url(../images/contact/vika.png);
+}

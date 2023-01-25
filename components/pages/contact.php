@@ -2,17 +2,29 @@
 
 <div class="row">
     <div class="column contact-container">
-        <div class="contact vika">
+        <div class="contact-center">
+            <div class="contact vika"></div>
+            <div class="contact-text">
+                <p>
+                    <span>Victoria Solovyeva</span>
+                </p>
+                <p>
+                    <span><a href="mailto:mail@unistra.com">mail@unistra.com</a></span>
+                </p>
+            </div>
         </div>
-        <p>
-            Victoriya Solovyeva: mail: mail@unistra.com
-        </p>
     </div>
     <div class="column contact-container">
-        <div class="contact cynthia">
+        <div class="contact-center">
+            <div class="contact cynthia"></div>
+            <div class="contact-text">
+                <p>
+                    <span>Cynthia Name</span>
+                </p>
+                <p>
+                    <span><a href="mailto:mail@unistra.com">mail@unistra.com</a></span>
+                </p>
+            </div>
         </div>
-        <p>
-            Cynthia: mail: mail@unistra.com
-        </p>
     </div>
 </div>
