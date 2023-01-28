@@ -1,27 +1,9 @@
 html,
 body {
+	height: 100%;
 	margin: 0;
 	padding: 0;
-	overflow: hidden;
-}
-
-#site-logo {
-    position: fixed;
-    width: 120px;
-	height: 70px;
-    left: calc(100vw - 200px);
-    top: 5px;
-    background-image: url(/images/Logo.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-}
-
-header {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	height: 75px;
+	overflow: auto;
 }
 
 header nav {
@@ -39,9 +21,13 @@ header nav a {
     font-size: larger;
 }
 
+header nav a.active-link {
+    font-weight: bold;
+}
+
 main {
-	margin-top: 150px;
-	bottom: 25px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 	left: 0;
 	right: 0;
 }
@@ -49,7 +35,6 @@ main {
 article {
 	min-width: 500px;
 	width: 100%;
-	height: 100%;
 }
 
 .transparent {
@@ -70,9 +55,6 @@ h1 {
 footer {
 	height: 30px;
 	bottom: 50px;
-	position: fixed;
-	left: 0;
-	right: 0;
 }
 
 footer div {
@@ -96,6 +78,14 @@ footer a {
 	flex: 50%;
 }
 
+.column-left {
+	flex: 100%;
+}
+
+.column-right {
+	flex: 0%;
+}
+
 .contact-container {
     width: 100%;
 }
@@ -117,4 +107,22 @@ a {
 
 a:hover {
 	font-weight: bold;
+}
+
+#button-container > p {
+	visibility: hidden;
+}
+
+#slidecontainer {
+	visibility: hidden;
+}
+
+.ident {
+	padding-left: 1em;
+}
+.vertical-top-ident {
+	margin-top: 1em;
+}
+.line {
+	display: block;
 }

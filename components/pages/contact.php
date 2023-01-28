@@ -9,7 +9,7 @@
                     <span>Victoria Solovyeva</span>
                 </p>
                 <p>
-                    <span><a href="mailto:mail@unistra.com">mail@unistra.com</a></span>
+                    <span><a href="https://www.linkedin.com/in/victoria-solovyeva/" target="_blank">Linkedin</a></span>
                 </p>
             </div>
         </div>
@@ -22,7 +22,7 @@
                     <span>Cynthia Lommatzsch</span>
                 </p>
                 <p>
-                    <span><a href="mailto:mail@unistra.com">mail@unistra.com</a></span>
+                    <span><a href="https://www.linkedin.com/in/cynthia-lommatzsch/" target="_blank">Linkedin</a></span>
                 </p>
             </div>
         </div>

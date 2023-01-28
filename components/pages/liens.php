@@ -1,4 +1,4 @@
-<div class="links">
+<div class="links bob-text">
 	<h1>Liens</h1>
 	<p>Quelques liens utiles:</p>
 	<ul>

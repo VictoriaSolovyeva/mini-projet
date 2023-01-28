@@ -53,8 +53,7 @@ header nav a {
 }
 
 header nav a:hover {
-	font-weight: bold;
-	content: url(../images/burger.png);
+	color: rgb(255, 123, 29);
 }
 
 header .logo {
@@ -63,6 +62,10 @@ header .logo {
 	float: left;
 	padding-left: 10px;
 	cursor: pointer;
+}
+
+header nav a.active-link {
+	color: yellow;
 }
 
 main {
@@ -86,6 +89,9 @@ article {
 .welcome {
 	margin-top: 50px;
 	margin-left: 50px;
+}
+
+.bob-text {
 	font-size: large;
 }
 
@@ -428,11 +434,16 @@ footer a:hover {
 .column {
 	flex: 50%;
 }
+.column-left {
+	flex: 70%;
+}
+.column-right {
+	flex: 30%;
+}
 
 /* cube rotation */
 
 .transparent {
-	/* padding-left: 20px; */
 	padding-bottom: 10px;
 	margin-bottom: 15px;
 }
@@ -442,7 +453,17 @@ footer a:hover {
 	overflow-y: auto;
 	background-color: rgb(21, 81, 162, 0.5);
 	padding: 20px;
-	border-radius: 25px;
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border: solid 1px;
+}
+
+.example-area {
+	height: 400px;
+	background-color: rgb(255, 255, 0, 0.2);
+	padding: 20px;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
 	border: solid 1px;
 }
 
@@ -525,10 +546,15 @@ footer a:hover {
 }
 
 #button-container {
-	width: 100px;
 	height: 100px;
 	margin-left: 100px;
 	margin-top: 150px;
+}
+
+#button-container > p {
+	margin-left: -50px;
+	margin-top: -50px;
+	font-size: larger;
 }
 
 /* slide style */
@@ -607,4 +633,57 @@ footer a:hover {
 
 .contact.vika {
     background-image: url(../images/contact/vika.png);
+}
+
+/* afficher code */
+
+.code-section {
+    background-color: rgb(30, 30, 30);
+    border-radius: 10px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 14px;
+    overflow-x: auto;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin-right: 10em;
+}
+
+code {
+    color: rgb(212, 212, 212);
+    border-radius: 3px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 14px;
+}
+.selector {
+    color: rgb(179, 186, 125);
+}
+.special {
+    color: rgb(165, 134, 192);
+}
+.function {
+    color: rgb(220, 220, 170);
+}
+.parenthesis {
+    color: rgb(23, 143, 197);
+}
+.curly-brace {
+    color: rgb(241, 215, 14);
+}
+.property {
+    color: rgb(140, 220, 218);
+}
+.value-number {
+    color: rgb(167, 206, 155);
+}
+.value-text {
+    color: rgb(206, 145, 120);
+}
+.ident {
+	padding-left: 1em;
+}
+.vertical-top-ident {
+	margin-top: 1em;
+}
+.line {
+	display: block;
 }

@@ -1,12 +1,13 @@
 const cube = document.getElementById("cube");
-const scale = document.getElementById("slidecontainer");
 const minX = 0;
-const maxX = slidecontainer.offsetWidth;
+const maxX = 100;
 
 let cubeRotation = 0;
 
-document.getElementById("cursor").value = 50;
-rotate(50);
+if (!!document.getElementById("cursor")) {
+    document.getElementById("cursor").value = 50;
+    rotate(50);
+}
 
 function rotate(e) {
     let x = 2 * ((+e + 25) * maxX) / 100;

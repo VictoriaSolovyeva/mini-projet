@@ -46,6 +46,11 @@ header nav a:hover {
     font-weight: bold;
 }
 
+header nav a.active-link {
+    color: rgb(175, 89, 255);
+    font-weight: bold;
+}
+
 header .logo {
     position: absolute;
     top: 0;
@@ -173,19 +178,23 @@ footer div a:hover {
 }
 
 #patrick>.normal {
-    content: url(../images/patrick-zen.png);
+    content: url("../images/patrick-zen.png");
     height: 300px;
 }
 
 #patrick>.dance {
-    content: url(../images/patrick-zen.png);
+    content: url("../images/patrick-zen.png");
     height: 300px;
 	animation: fly_circle 5s linear infinite;
 }
 
 @keyframes fly_circle {
-    from { transform: rotate(0deg) translateX(100px) rotate(0deg); }
-    to   { transform: rotate(360deg) translateX(100px) rotate(-360deg); }
+    from { 
+        transform: rotate(0deg) translateX(100px) rotate(0deg);
+    }
+    to   {
+        transform: rotate(360deg) translateX(100px) rotate(-360deg);
+    }
 }
 
 /* Transformation page */
@@ -193,18 +202,23 @@ footer div a:hover {
 .row {
 	display: flex;
 }
-
 .column {
-	flex: 50%;
+    flex: 50%;
+}
+.column-left {
+	flex: 70%;
+}
+.column-right {
+	flex: 30%;
 }
 
 /* cube rotation */
 
 #cube-container {
-	width: 80px;
-	height: 80px;
+	width: 100px;
+	height: 100px;
 	perspective: 1000px;
-	margin-left: calc((100% - 80px) / 2);
+	margin-left: calc((100% - 100px) / 2);
 	margin-top: 100px;
 }
 
@@ -223,45 +237,50 @@ footer div a:hover {
 }
 
 .left {
-	background: url(../images/cube/side-patrick.png) center fixed;
+	background: url(../images/cube/patrick-cube-2.jpg) center fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
-	transform: rotateY(0deg) translateZ(40px);
+	transform: rotateY(0deg) translateZ(50px);
 }
 
 .right {
-	background: url(../images/cube/side-patrick.png) center fixed;
+	background: url(../images/cube/patrick-cube-2.jpg) center fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
-	transform: rotateY(180deg) translateZ(40px);
+	transform: rotateY(180deg) translateZ(50px);
 }
 
 .back {
-	background: url(../images/cube/side-patrick.png) center fixed;
+	background: url(../images/cube/patrick-cube-3.jpg) center fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
-	transform: rotateY(-90deg) translateZ(40px);
+	transform: rotateY(-90deg) translateZ(50px);
 }
 
 .front {
-	background: url(../images/cube/patrick.png) center fixed;
+	background: url(../images/cube/patrick-cube-4.jpg) center fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
-	transform: rotateY(90deg) translateZ(40px);
+	transform: rotateY(90deg) translateZ(50px);
 }
 
 .top {
-	background: url(../images/cube/side-patrick.png) center fixed;
+	background: url(../images/cube/patrick-cube-1.jpg) center fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
-	transform: rotateX(90deg) translateZ(40px);
+	transform: rotateX(90deg) translateZ(50px);
 }
 
 .bottom {
-	background: url(../images/cube/side-patrick.png) center fixed;
+	background: url(../images/cube/patrick-cube-1.jpg) center fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
-	transform: rotateX(-90deg) translateZ(40px);
+	transform: rotateX(-90deg) translateZ(50px);
+}
+
+#button-container > p {
+	margin-left: 30px;
+	margin-top: 50px;
 }
 
 /* slide style */
@@ -329,4 +348,57 @@ footer div a:hover {
 
 .contact.vika {
     background-image: url(../images/contact/vika.png);
+}
+
+/* afficher code */
+
+.code-section {
+    background-color: rgb(30, 30, 30);
+    border-radius: 10px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 14px;
+    overflow-x: auto;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin-right: 10em;
+}
+
+code {
+    color: rgb(212, 212, 212);
+    border-radius: 3px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 14px;
+}
+.selector {
+    color: rgb(179, 186, 125);
+}
+.special {
+    color: rgb(165, 134, 192);
+}
+.function {
+    color: rgb(220, 220, 170);
+}
+.parenthesis {
+    color: rgb(23, 143, 197);
+}
+.curly-brace {
+    color: rgb(241, 215, 14);
+}
+.property {
+    color: rgb(140, 220, 218);
+}
+.value-number {
+    color: rgb(167, 206, 155);
+}
+.value-text {
+    color: rgb(206, 145, 120);
+}
+.ident {
+	padding-left: 1em;
+}
+.vertical-top-ident {
+	margin-top: 1em;
+}
+.line {
+	display: block;
 }
