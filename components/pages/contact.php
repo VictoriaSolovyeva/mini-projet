@@ -19,7 +19,7 @@
             <div class="contact cynthia"></div>
             <div class="contact-text">
                 <p>
-                    <span>Cynthia Name</span>
+                    <span>Cynthia Lommatzsch</span>
                 </p>
                 <p>
                     <span><a href="mailto:mail@unistra.com">mail@unistra.com</a></span>
