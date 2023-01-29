@@ -1,6 +1,6 @@
 <h1>Animations</h1>
 
-<div class="transformation-container">
+<div class="display-container">
 
     <div class="row">
         <div class="column-left scroll bob-text">
@@ -81,3 +81,5 @@
             </div>
         </div>
     </div>
+
+</div>

@@ -9,7 +9,7 @@ body {
     overflow: hidden;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 	scrollbar-color: rgb(241, 148, 131) rgb(193, 245, 44);
-}
+} 
 
 #site-logo {
     position: fixed;
@@ -17,7 +17,7 @@ body {
 	height: 70px;
     left: calc(100vw - 200px);
     top: 5px;
-    background-image: url(/images/Logo.png);
+    background-image: url("../images/Logo.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -65,7 +65,7 @@ main {
     bottom: 25px;
     left: 0;
     right: 0;
-    background: url(../images/backgrounds/patrick-background.png) center fixed;
+    background: url("../images/backgrounds/patrick-background.png") center fixed;
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -236,42 +236,42 @@ footer div a:hover {
 }
 
 .left {
-	background: url(../images/cube/patrick-cube-left.png) center fixed;
+	background: url("../images/cube/patrick-cube-left.png") center fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
 	transform: rotateY(0deg) translateZ(100px);
 }
 
 .right {
-	background: url(../images/cube/patrick-cube-right.png) center fixed;
+	background: url("../images/cube/patrick-cube-right.png") center fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
 	transform: rotateY(180deg) translateZ(100px);
 }
 
 .back {
-	background: url(../images/cube/patrick-cube-back.png) center fixed;
+	background: url("../images/cube/patrick-cube-back.png") center fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
 	transform: rotateY(-90deg) translateZ(100px);
 }
 
 .front {
-	background: url(../images/cube/patrick-cube-front.png) center fixed;
+	background: url("../images/cube/patrick-cube-front.png") center fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
 	transform: rotateY(90deg) translateZ(100px);
 }
 
 .top {
-	background: url(../images/cube/patrick-cube-top.png) center fixed;
+	background: url("../images/cube/patrick-cube-top.png") center fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
 	transform: rotateX(90deg) translateZ(100px);
 }
 
 .bottom {
-	background: url(../images/cube/patrick-cube-bottom.png) center fixed;
+	background: url("../images/cube/patrick-cube-bottom.png") center fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
 	transform: rotateX(-90deg) translateZ(100px);
@@ -342,11 +342,11 @@ footer div a:hover {
 }
 
 .contact.cynthia {
-    background-image: url(../images/contact/cynthia.png);
+    background-image: url("../images/contact/cynthia.png");
 }
 
 .contact.vika {
-    background-image: url(../images/contact/vika.png);
+    background-image: url("../images/contact/vika.png");
 }
 
 /* afficher code */
@@ -354,7 +354,7 @@ footer div a:hover {
 .code-section {
     background-color: rgb(30, 30, 30);
     border-radius: 10px;
-    font-family: 'Source Code Pro', monospace;
+    font-family: "Source Code Pro", monospace;
     font-size: 14px;
     overflow-x: auto;
 	padding-top: 1em;
@@ -365,7 +365,7 @@ footer div a:hover {
 code {
     color: rgb(212, 212, 212);
     border-radius: 3px;
-    font-family: 'Source Code Pro', monospace;
+    font-family: "Source Code Pro", monospace;
     font-size: 14px;
 }
 .selector {
