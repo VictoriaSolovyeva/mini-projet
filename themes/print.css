@@ -21,7 +21,7 @@ header nav a {
     font-size: larger;
 }
 
-header nav a.active-link {
+a.active-link {
     font-weight: bold;
 }
 

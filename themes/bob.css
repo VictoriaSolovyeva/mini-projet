@@ -64,7 +64,7 @@ header .logo {
 	cursor: pointer;
 }
 
-header nav a.active-link {
+a.active-link {
 	color: yellow;
 }
 
