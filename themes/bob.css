@@ -22,7 +22,7 @@ body {
 	height: 70px;
 	left: calc(100vw - 200px);
 	top: 5px;
-	background-image: url("../images/Logo.png");
+	background-image: url("../images/logo.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
